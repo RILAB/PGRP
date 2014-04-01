@@ -1,6 +1,14 @@
 PGRP
 ====
 
+### Files
+
+nsfxxx - the template for each section of the NSF proposal.
+
+msfmaster.tex - this is the only file that gets compiled
+
+readme.txt - describes these template filesf
+
 ### Potential Refs:
 
 [Climate effects on maize in Ethiopia Rift Valley](http://www.sciencedirect.com/science/article/pii/S0378429014000483)
