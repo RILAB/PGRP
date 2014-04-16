@@ -21,7 +21,7 @@
 % to work in progress by the PI under other support and to work in progress 
 % elsewhere.
 
-\section{Rationale and Significance}
+\section*{Rationale and Significance}
 
 %MBH: not sure we need this paragraph. if so, we should update it.
 
@@ -44,9 +44,10 @@ There is clearly tremendous potential to harness the allelic variation present a
 Genetics of adaptation
 While variation in several well-known maize phenotypes (branching, glume architecture, endosperm color) is largely controlled by single loci (tb1, tga1, and y1 respectively), most complex traits have been found to be highly polygenic.  For instance, recent genome-wide association studies (GWAS) of leaf morphology, flowering time, and disease resistance have all found tens of QTL of small effect (Buckler et al. 2009, Tian et al. 2011, Kump et al. 2011).  These authors suggested that the outcrossing mating system of maize may explain the highly quantitative genetic architecture of adaptive traits in contrast to selfing species like rice and Arabidopsis where fewer loci are involved.  Adaptation to varying temperature during maize diffusion post-domestication is thus likely to have also involved a diffuse genetic architecture.  For example, tassel blasting and leaf firing, traits related to heat tolerance, have previously been shown to be polygenic in nature (Frova and Sari-Gorla 1994, Bai 2003) and temperature is known to affect many aspects of plant growth and development (e.g., seed germination, photosynthesis, respiration; Wahid et al. 2007).  
 
-\section{Genetic architecture of highland adaptation in Zea mays}
+\renewcommand{\thesection}{Aim \arabic{section}}
+\section{Genetic architecture of highland traits}
 
-\subsection{Questions}
+\subsection*{Questions}
 \begin{itemize}
 \item What is the genetic architecture of highland adaptation?
 \item How much of the genetic architecture is shared between Mexico and South America?
@@ -54,46 +55,107 @@ While variation in several well-known maize phenotypes (branching, glume archite
 \item Are highland QTL/loci widespread in highland climes?
 \end{itemize}
 
-\subsection{QTL mapping of highland adaptation traits in high x low mapping populations from Mexico and S. America}
-\begin{itemize}
-\item Phenotyping at 4 sites: 
-\begin{itemize}
-\item low Mexico (RS)
-\item high Mexico (RS) 
-\item Missouri (SFG)
-\item growth chamber (MBH)
-\end{itemize}
-\item 960 F2:3 families; 40 checks
-\item population development (RS, SFG)
-\item genotyping and mapping (JRI, SFG)
-\item DNA extraction, genotypes (SFG)
-\item Sequence parents (JRI)
-\item Mapping (SFG)
-\end{itemize}
+\subsection{QTL mapping of highland adaptation traits}
+%\begin{itemize}
+%\item Phenotyping at 4 sites: 
+%\begin{itemize}
+%\item low Mexico (RS)
+%\item high Mexico (RS) 
+%\item Missouri (SFG)
+%\item growth chamber (MBH)
+%\end{itemize}
+%\item 960 F2:3 families; 40 checks
+%\item population development (RS, SFG)
+%\item genotyping and mapping (JRI, SFG)
+%\item DNA extraction, genotypes (SFG)
+%\item Sequence parents (JRI)
+%\item Mapping (SFG)
+%\end{itemize}
 
-\subsection{Admixture mapping in mex/parv hybrid zone}
-\begin{itemize}
-\item collection trip (MBH)
-\item 500 individuals from Ahuacatitlan in Mexico (MBH, RS)
-\item DNA extractions, genotyping (MBH)
-\item phenotyping (MBH, RS)
-\item mapping (MBH/GC)
-\end{itemize}
+In order to identify the genomic regions controlling highland adaptation in maize, we will conduct QTL mapping studies of two populations, each derived by crossing a landrace adapted to lowland conditions with a landrace adapted to highland conditions \ref{tab:qtlpops}.  The first population will be developed using landraces from Mexico, while the second population will be developed from South American landraces.  John Doebley from the University of Wisconsin and Seth Murray from Texas A&M University have created inbred lines from a number of landraces.  We have chosen pairs of landrace inbreds as the parents of these population, as well as for the B73 introgression lines to be developed in aim \ref{sec:funchar} below.  The advantage of using inbred lines as parents instead of the landraces per se is that only one allele is present in the parental line, thus ensuring that only a single allele will be transmitted to population which will simplify population development and subsequent analyses.  
 
-% make phenotypes a table
-\subsection{Phenotypes}
-\begin{itemize}
-\item macrohairs (SFG, RS, MBH)
-\item flowering time (SFG, RS, MBH)
-\item tassel morphology (SFG, RS, MBH)
-\item plant height every 2 weeks \& at flowering (SFG, RS, MBH)
-\item biomass (SFG, RS, MBH)
-\item \# ears (mz), 50k weight (mz/teo), total seed weight (mz) (SFG, RS, MBH)
-\item stem/plant color (SFG, RS, MBH)
-\item germination depth, temp in greenhouse (F2:3 only; MBH)
-\item roots (inquire with Bloom)
-\item ionomics (Ivan via letter of support)
-\end{itemize}
+\begin{table}
+\begin{center}
+\caption{Parental lines for QTL} \label{tab:qtlpops}
+\begin{tabular}{llll}\\\toprule  
+{\bf Population}	& {\bf Parent } &	{\bf Origin (masl)} & {\bf Status }\\ \midrule
+ \rowcolor{gray!25}
+Mexico	& Zapalote Chico		& Oaxaca	 (46)		&  F2 \\ 
+ \rowcolor{gray!25}
+	& 	Palomero de Jalisco	& 	Jalisco (2520)		& \\
+S. America	& Araguito	& Venezuela (183)	&  F1 \\ 
+	& Sal Prieta	 & Ecuador (2948) & \\ \bottomrule
+\end{tabular}
+\end{center}
+\end{table} 
+
+Because we plan to evaluate these populations in replicated trials over multiple years, we will self-pollinate the F2 plants to create 500 F2:3 families from each population.  Tissue will be collected from each of the F2 plants, from which DNA will be extracted and used for genotypic analysis.  We will extract DNA from the F2 plants comprising the population, create the genetic map, and conduct QTL mapping analyses, all using standard techniques.  The parents of the population will be genotyped at high density, using whole genome next-generation sequencing methods similar to what was used in the maize HapMap.v2 (\cite{Chia2012a}.  This will allow for tens of millions of SNP markers to be projected onto the population.  The individuals of each population will be genotyped via genotyping-by-sequencing \cite{GBS}{Elshire2011}, resulting in approximately 350,000 SNPs, more than enough to generate linkage maps for QTL mapping.
+
+\begin{table}
+\rowcolors{2}{gray!25}{white}
+\begin{center}
+\caption{Parental lines for QTL} \label{tab:locales}
+\begin{tabular}{p{3cm}cccccc}\\\toprule  
+{\bf Field Sites} & {\bf Lat/Lon } & {\bf Elevation (m) } &	{\bf Min/Mean/Max\,$^{\circ} \mathrm{C}$  } & {\bf Precip. (mm) } \\ \toprule
+Valle de Banderas, Nayarit	& 20.8,\,-105.2&	54		&	15.3/25.8/33.7	&	1184 \\
+Irapuato, Guanajuato 	&	20.7,\,-101.3	&	1729.0	&	7.3/20.2/31.7	&	693 \\
+Amealco, Quer\'etaro 	&	19.5,\,-99.1	&	2240.0 	&	2.3/15.6/27.0	&	626\\
+Columbia, Missouri		& 	28.9,\,-92.2	&	266.1 	&	-17.8/36.0/40.5&	914\\
+Ames, Iowa	& 	X	&	X 	&	X		&	X	 \\ \bottomrule
+\end{tabular}
+\end{center}
+\end{table} 
+
+The populations will be phenotyped at 3 field locations; one lowland site (Valle de Banderas in Mexico), one highland site (Irapuato or Queretaro, Mexico), and one temperate site near Columbia, Missouri (\ref{tab:locales}).  In each location, the experiment will consist of two replications where the 500 entries and parental checks will be arranged in a randomized complete block design or an augmented alpha lattice design. The parental checks will be used to control for field variation.  The following phenotypes will be collected, using our in-house barcode-based data collection program:  flowering time, plant height every two weeks and after flowering, macrohair density, stem/plant color, tassel morphology, number of ears, 50-kernel weight, total seed weight, and plant biomass (\ref{tab:phenos}).  In addition, a greenhouse trial in Ames, Iowa, will be used to evaluate germination at various planting depths and temperatures.  %[[Check into possibility of roots (inquire with Bloom) and ionomics (Ivan via letter of support)]]
+
+
+\rowcolors{2}{gray!25}{white}
+\begin{wraptable}{r}{8cm}
+\caption{Phenotypes measured}\label{phenos}
+\begin{tabular}{ll}\\\toprule  
+{\bf Abbreviation} & {\bf Phenotype}  \\\midrule
+MH & leaf sheath macrohairs \\
+FT & flowering time \\
+PH & plant height \\
+BM & total plant biomass \\
+EN & ear number \\
+FK & fifty kernel weight \\
+TBN & tassel branch number \\
+TL & tassel length \\
+SM & total kernel mass \\
+RC & root chilling response \\
+GDP & germination depth \\
+SC & stem anthocyanin content \\
+GDP & germination depth \\
+GDT & germination temperature \\\bottomrule
+\end{tabular}
+\end{wraptable} 
+
+
+Raw data from each plot will be analyzed using standard software (e.g. SAS or R) to create mixed-models incorporating replications and environments.  Data will be analyzed across environments to determine whether location (elevation) affects the various phenotypes, as expected.  Each location will then be analyzed separately to derive LSMeans to be used as the phenotypic data in QTL analyses.  QTL analysis will be conducted using standard, publicly available software.  Several iterations of QTL analysis will be conducted: on individual traits, individual traits adjusted for covariates such as flowering time, and multiple traits simultaneously.  The QTL profiles will be compared across populations (Mexican vs South American) and across field sites (elevations) to determine how elevation affects adaptation traits.  We expect very different QTL profiles from the highland and lowland evaluation sites, and from the Mexican and South American populations.
+
+\subsection{Admixture mapping in a teosinte hybrid zone}
+%\begin{itemize}
+%\item collection trip (MBH)
+%\item 500 individuals from Ahuacatitlan in Mexico (MBH, RS)
+%\item DNA extractions, genotyping (MBH)
+%\item phenotyping (MBH, RS)
+%\item mapping (MBH/GC)
+%\end{itemize}
+
+
+%\subsection{Phenotypes}
+%\begin{itemize}
+%\item macrohairs (SFG, RS, MBH)
+%\item flowering time (SFG, RS, MBH)
+%\item tassel morphology (SFG, RS, MBH)
+%\item plant height every 2 weeks \& at flowering (SFG, RS, MBH)
+%\item biomass (SFG, RS, MBH)
+%\item \# ears (mz), 50k weight (mz/teo), total seed weight (mz) (SFG, RS, MBH)
+%\item stem/plant color (SFG, RS, MBH)
+%\item germination depth, temp in greenhouse (F2:3 only; MBH)
+%\item roots (inquire with Bloom)
+%\end{itemize}
 
 \subsection{Global analysis of highland haplotypes}
 \begin{itemize}
@@ -102,14 +164,15 @@ While variation in several well-known maize phenotypes (branching, glume archite
 \item Case study in Chihuahua (ACJ)
 \end{itemize}
 
-\section{Population Genetics of Introgression}
-\subsection{Questions}
+\section{Adaptive introgression of highland alleles}
+
+\subsection*{Questions}
 \begin{itemize}
 \item Are introgressed loci adaptive?
 \item Does evidence of introgression and natural selection correspond to QTL?
 \end{itemize}
 
-\subsection{Population genetics of maize-teosinte introgression}
+\subsection{Population genetics of maize-teosinte introgression} \label{subsec: intropopgen}
 
 GBS of 18 inds x 10 pops x 2 subspecies (mex \& maize) (JRI)
 384 at 48 plex * \$60 = \$23040
@@ -120,34 +183,32 @@ Evidence of selection against introgression (recombination)
 Evidence of selection for introgressed regions (sweep signals, deviation of genome-wide admixture signal)
 Introgressed regions correlate with admix mapping signals? with QTL? Berg approach
 
-\subsection{Population genetics of hybridization in teosinte}
+\subsection{Population genetics of hybridization in teosinte} \label{subsec: admixpopgen}
 
 make use of admixed pop sampled by matt
 Berg approach of phenotypes mapped there for selection in parentals and hybrid
 
 GBS Additional 5 admixed parv/mex populations (50 inds. each) (JRI)
-also 4 new pops x (12 parv + 12 mex + 12 hybrids) = $8160
+also 4 new pops x (12 parv + 12 mex + 12 hybrids) = \$8160
 Ahuacatitlan and 3 more
 Introgression and adaptation in additional admix pops (JRI, GC)
 Selection for/against regions in parv/mex/admix
 Parallelism across pops in hybrid zone
 
-
-
-\section{Functional characterization of QTL}
+\section{Functional characterization of QTL} \label{sec:funchar}
 
 \subsection{Questions}
 \begin{itemize}
 \item What do QTL/selected loci/introgressed loci do?
 \end{itemize}
 
-\subsection{Fine map pigmentation}
+\subsection{Fine map pigmentation} \label{subsec:pigment}
 \begin{itemize}
 \item PT x T43 NIL population (RS)
 \item GBS genotyping (MBH)
 \end{itemize}
 
-\subsection{Allelic series for QTL of interest}
+\subsection{Allelic series for QTL of interest} \label{subsec:series}
 \begin{itemize}
 \item 10 parents:
 \begin{itemize}
@@ -165,7 +226,7 @@ Parallelism across pops in hybrid zone
 \end{itemize}
 \end{itemize}
 
-\subsection{RNAseq}
+\subsection{RNAseq} \label{subsec:rnaseq}
 \begin{itemize}
 \item Time series analysis of plants in field (ACJ):
 \item 15 Lines
@@ -200,8 +261,27 @@ Parallelism across pops in hybrid zone
 %	SFG
 
 
+\rowcolors{2}{gray!25}{white}
+\begin{table}[H]
+\begin{center}
+\caption{Proposed timeline of activities and responsibilities}\label{timeline}
+\begin{tabular}{lccccc}\\\toprule  
+    \rowcolor{gray!50}
+Year & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+Objective \ref{subsec: series} Allelic series & 2015 & 2016 & 2017 & 2018 & 2019\\\midrule
+Objective \ref{subsec: pigment} Fine mapping & -- & RS, AC & AC,JRI & AC,JRI & -- \\\midrule
+Objective \ref{subsec: rnaseq} RNA-seq & 2015 & 2016 & 2017 & 2018 & 2019\\\midrule
+Objective \ref{subsec: intropopgen} Maize/mexicana introgression & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+Objective \ref{subsec: X} Admix mapping & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+Objective \ref{subsec: X} QTL mapping & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+Objective \ref{subsec: X} Highland haplotypes & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+Objective \ref{subsec: admixpopgen} Admixture population genetics & 2015 & 2016 & 2017 & 2018 & 2019\\ \bottomrule
+\end{tabular}
+\end{center}
+\end{table} 
+
+
 \required{Broader Impacts}
-\setcounter{section}{1}
 % As in the project summary, broader impacts must be called out separately 
 % in the project description.  You may be able to give more specific
 % examples, or discuss how you've previously achieved these impacts.
@@ -214,12 +294,9 @@ Parallelism across pops in hybrid zone
 
 We propose an international student exchange program between the PIs in the U.S. and Senior Personnel at LANGEBIO in Mexico. Over the course of the grant, we propose to fund 10 graduate or undergraduate students for 3-month research internships in one of the collaborating laboratories. Students involved will participate in research projects directly relating to the research focus of the grant, including developing mapping populations, mapping traits, population genetic analysis, or analysis of next-generation data. The expectation is that such research will often lead to co-authorship on publications. Students will be asked to give two presentations, one to the host lab upon arrival, talking about the lab/university they came from and research there, and another to their host lab detailing their work over the 3-month period.  Each of the PIs will participate, sending students to Mexico and/or accepting students from Mexico for internships. PI Ross-Ibarra will manage the program, as he is fluent in Spanish and has past experience with a similar exchange program (NSF 0922703). Over the last four years, his lab has hosted 6 Mexican students who have worked on various computational aspects of centromere evolution. Two of those students have earned authorship on a paper to be submitted later this year and one has gone on to a PhD program in the U.S.Our goal is to involve students directly in research while at the same time fostering intercultural exchange and promoting future international research opportunities. It is particularly appropriate for the study of maize, a crop with significant cultural and economic impact in both Mexico and the U.S. Participating Mexican students will learn new analytical methods -- especially computational management of large datasets -- that can be introduced to their respective laboratories and peers. American exchange students will similarly benefit from experience with large field experiments and efforts to functionally characterize individual loci.  The hope is that Mexican undergraduate students involved may be recruited to graduate programs in the U.S., ideally to work in the lab of one of the PIs, and that American undergraduate students will be exposed to international opportunities for research, graduate education, and collaboration.
 
-\subsection*{Phenotyping workshop} %SFG
-\begin{itemize}
-\item Yearly workshop at UM
-\item Participants pay to purchase handheld
-\item 2 day workshop provides software, training on phenotyping in maize
-\end{itemize}
+\subsection*{Phenotyping workshop} %SFG, JRI
+
+The USDA-ARS group in Columbia has developed a streamlined phenotypic data collection system utilizing a handheld barcode device, barcoded plant tags, and barcoded phenotyping tools in order to maximize efficiency.  We will host a phenotyping workshop in Columbia during each year of the grant.  Through this workshop, Dr. Flint-Garcia’s state-of-the-art system will be transferred to other research institutions to aid in large-scale data collection. The phenotyping workshop will include topics on Experimental Design, setting up the FieldBook database, and Data Collection.  Experimental design topics include understanding where variation comes from, how to control for environmental/field variability and experimental error; heritability and repeatability.  The need for consistent data collection and high-throughput will be emphasized.  FieldBook database setup topics include setting up Palm handheld users, locations, traits, projects, assigning plots to projects, assigning traits and measurements to projects,  generating barcoded plant tags, and loading the program and trait groups to the Palm to prepare for data collection.  Topics to be covered in Data Collection include data collection for specific traits related to local adaptation of interest to our group, synchronizing data from the palm with the desktop/laptop database, managing data conflicts between the palm and the database, running reports, and exporting data.  This proposal will provide travel support for instructors.  The workshop will be free but participants will be expected to purchase their own Palm handheld and pay for their own travel.  The workshop will be held each year in late summer so that the participants can gain hands-on experience in data collection in the corn field.
 
 \subsection*{Software} %JRI and GC
 \begin{itemize}
@@ -236,6 +313,14 @@ Other examples will include: using height association data to demonstrate quanti
 The modules will be publicly distributed (see Data Management Plan), and advertised via evoldir and other venues. We will be develop and archive the modules on github.com in a fully open manner. The use of github will allow others to modify and extend the modules and to share and track these modifications. We will regularly deposit updated versions of the modules into figshare and data dryad in order to ensure that a permanent resource is maintained. 
 
 \subsection*{Germplasm resources} %MBH, SFG and RS
+
+%need emphasis on germplasm we will create (mapping pops etc.) that will be in germplasm banks
+
+The highland environment remains an important niche for global maize production, in terms of acreage and farmer involvement, if not overall yield. The highland environment presents a number of important abiotic challenges beyond high elevation per se, including periods of drought and cold, and highland adapted material has great potential to provide an important source of stress tolerance; the rapid development and inherent earliness of highland material, for example, may have general application in marginal environments. 
+
+In Mexico, the highland niche represents a key target market for an emerging private sector of small breeding companies, established following deregulation in 1990s. While highland adapted hybrids are available, these are largely derived from lowland sub-tropical material with little or no contribution of the highland landraces. This project will move this important germplasm a step closer to breeding programs, and in doing so strengthen ties between the broader academic community (represented here by both US and Mexican institutions) and the Mexican private sector (letter of support UNISEM).
+
+This project will also build further the collaboration between US institutions and LANGEBIO, with a number of Mexican graduate students being directly involved. While Mexican plant science retains a traditionally strength in biochemistry and molecular biology, genetics has been less well represented in recent years. As a consequence, while there is ready access to genomics technologies, the human resources to make the most of the opportunities they present may be lacking. This project provides an excellent opportunity for capacity building in a Mexican institution, with the expectation of a lasting impact through future collaboration.
 
 \required{Results From Prior NSF Support}
 % 5 pages or fewer of the 15 pages for entire description document.
@@ -257,9 +342,10 @@ The modules will be publicly distributed (see Data Management Plan), and adverti
 %can separate pubs with semicolons if we need to to save space.
 
 \subsubsection*{Ross-Ibarra: \#0922703: Functional Genomics of Maize Centromeres}
-\emph{Intellectual merit} Centromeres are regions of the genome that organize and regulate chromosome movement, yet the biology of centromeres remains poorly understood. Co-PI Ross-Ibarra's group has focused in particular on the evolutionary genetics of centromeres. This work has demonstrated the remarkable evolutionary lability of centromere tandem repeats, but has shown that there is little evidence in maize for coevolution between centromere sequence and kinetochore proteins. Ongoing work from the Ross-Ibarra lab seeks to characterize kinetochore proteins, assess the phylogenetic evidence for longer-term coevolution, and understand patterns of centromere and genome size variation in natural populations. \\\emph{Broader impacts} Co-PI Ross-Ibarra has established and runs an international student exchange program as part of this grant. Data and result of this project have been disseminated via publications and presentations as well as deposited in the maize genetics community database \url{www.maizegdb.org}. Former trainees on the grant include Dr. Matthew Hufford (Co-PI on the current grant).
+\paragraph*{Intellectual merit} Centromeres are regions of the genome that organize and regulate chromosome movement, yet the biology of centromeres remains poorly understood. Co-PI Ross-Ibarra's group has focused in particular on the evolutionary genetics of centromeres. This work has demonstrated the remarkable evolutionary lability of centromere tandem repeats, but has shown that there is little evidence in maize for coevolution between centromere sequence and kinetochore proteins. Ongoing work from the Ross-Ibarra lab seeks to characterize kinetochore proteins, assess the phylogenetic evidence for longer-term coevolution, and understand patterns of centromere and genome size variation in natural populations. 
+\paragraph*{Broader impacts} Co-PI Ross-Ibarra has established and runs an international student exchange program as part of this grant. Data and result of this project have been disseminated via publications and presentations as well as deposited in the maize genetics community database \url{www.maizegdb.org}. Former trainees on the grant include Dr. Matthew Hufford (Co-PI on the current grant).
  
-\begin{itemize}  \itemsep0em
+\begin{itemize}[noitemsep]
 \item Pyh\"aj\"arvi T, Hufford MB, Mezmouk S, Ross-Ibarra J (2013) Genome Biol \& Evol:  5:1594-1609
 \item Hufford MB, Lubinsky P, Pyh\"aj\"arvi T, et al. PLoS Genetics 9(5): e1003477.
 \item Melters DP, Bradnam KR, Young HA, et al. (2013) Genome Biology 14:R10
@@ -274,20 +360,20 @@ The modules will be publicly distributed (see Data Management Plan), and adverti
 \subsubsection*{Coop: \#1262645: Collaborative Research: ABI Innovation: Visualization And Statistics For Spatial Population Genomic Analysis. }
 \$314,260, with an effective date of 05/01/13. Award Duration: 36 months.
 
-\emph{Intellectual merit} We are developing a set of spatial statistics methods based on Gaussian random fields for the analysis of geographic population genomics data. The first method based on this approach has just been published (Bradburd et al. 2013), allowing a sound statistical framework to distinguish the effects of geographic and ecological distance on genetic isolation. \\
-\emph{Broader impacts} The R package of the software has been released: \url{http://genescape.ucdavis.edu/scripts-and-code/bedassle/}, and has already been used by a many molecular ecologists. 
+\paragraph*{Intellectual merit}  We are developing a set of spatial statistics methods based on Gaussian random fields for the analysis of geographic population genomics data. The first method based on this approach has just been published (Bradburd et al. 2013), allowing a sound statistical framework to distinguish the effects of geographic and ecological distance on genetic isolation. \\
+\paragraph*{Broader impacts} The R package of the software has been released: \url{http://genescape.ucdavis.edu/scripts-and-code/bedassle/}, and has already been used by a many molecular ecologists. 
 
-\begin{itemize} 
+\begin{itemize}[noitemsep]
 \item Bradburd, G., Ralph, P., Coop, G.  (2013) Evolution 67: 3258-3273
 \end{itemize}
 
 \subsubsection*{Flint-Garcia: \#0820619: Genetic Architecture of Maize and Teosinte}
 \$ 9,823,000. 3/1/2009-2/28/2013. PI Edward Buckler, co-PIs J. Doebley, T. Fulton, S. Flint-Garcia, J. Holland, S. Kresovich, M. McMullen, Qi Sun. 
 
-\emph{Intellectual merit} This project extends over more than a decade, and has pioneered the characterization of population genetic and evolutionary parameters of maize diversity, developed resources to connect this genetic diversity to phenotype through both association and joint linkage-association mapping, conducted fine scale analysis of domestication and agronomic QTL, and recently expanded to whole-genome analysis of diversity, evolution, and phenotype. Overall, the maize diversity project has developed a wide range of approaches and broadened understanding of the maize genome, evolution and adaptation, genetic mapping, and the agricultural improvement of maize. Over the last three years, the current iteration of the project (DBI-0820619) has successfully released and analyzed the maize Nested Association Mapping (NAM) population, collaborated on making first and second generation haplotype maps for maize, resolved domestication traits, developed a range of novel statistical approaches for association mapping, and dissected complex traits such as flowering time, kernel composition, disease resistance, height, and inflorescence and leaf morphology. Several positional cloning projects that will facilitate refinement of association mapping approaches are nearing completion.  We have also been collaborating with colleagues around the world to resequence more than 100 Zea genomes and skim sequence 20,000 maize varieties. Overall, the project has published 58 scientific papers in the last three years, including 15 in Science, Nature Genetics, and PNAS. \\
-\emph{Broader impacts} The outreach program included a traveling science museum exhibit on maize diversity, evolution and genetics (seen by at least 300,000 people at five venues to date, including the famous Corn Palace in South Dakota), online Teacher Friendly Guide to the Evolution of Maize, seven Genotyping-By-Sequencing (GBS) workshops (held at primarily at Cornell but has also been held in Kenya), and training of postdocs, graduate students and undergraduates, the vast majority of which have continued in scientific careers.  Former trainees on this grant include Dr. Flint-Garcia  and Dr. Ross-Ibarra  (PIs of the current grant), only their publications are shown below.
+\paragraph*{Intellectual merit}  This project extends over more than a decade, and has pioneered the characterization of population genetic and evolutionary parameters of maize diversity, developed resources to connect this genetic diversity to phenotype through both association and joint linkage-association mapping, conducted fine scale analysis of domestication and agronomic QTL, and recently expanded to whole-genome analysis of diversity, evolution, and phenotype. Overall, the maize diversity project has developed a wide range of approaches and broadened understanding of the maize genome, evolution and adaptation, genetic mapping, and the agricultural improvement of maize. Over the last three years, the current iteration of the project (DBI-0820619) has successfully released and analyzed the maize Nested Association Mapping (NAM) population, collaborated on making first and second generation haplotype maps for maize, resolved domestication traits, developed a range of novel statistical approaches for association mapping, and dissected complex traits such as flowering time, kernel composition, disease resistance, height, and inflorescence and leaf morphology. Several positional cloning projects that will facilitate refinement of association mapping approaches are nearing completion.  We have also been collaborating with colleagues around the world to resequence more than 100 Zea genomes and skim sequence 20,000 maize varieties. Overall, the project has published 58 scientific papers in the last three years, including 15 in Science, Nature Genetics, and PNAS. \\
+\paragraph*{Broader impacts} The outreach program included a traveling science museum exhibit on maize diversity, evolution and genetics (seen by at least 300,000 people at five venues to date, including the famous Corn Palace in South Dakota), online Teacher Friendly Guide to the Evolution of Maize, seven Genotyping-By-Sequencing (GBS) workshops (held at primarily at Cornell but has also been held in Kenya), and training of postdocs, graduate students and undergraduates, the vast majority of which have continued in scientific careers.  Former trainees on this grant include Dr. Flint-Garcia  and Dr. Ross-Ibarra  (PIs of the current grant), only their publications are shown below.
 
-\begin{itemize}  \itemsep0em\item Bottoms, C., Flint-Garcia, S. \& McMullen, M.D.  BMC Bioinformatics 11 Suppl 6, S28 (2010).
+\begin{itemize}[noitemsep]\item Bottoms, C., Flint-Garcia, S. \& McMullen, M.D.  BMC Bioinformatics 11 Suppl 6, S28 (2010).
 \item Brown, P.J. et al.  PLoS Genetics 7, e1002383 (2011).
 \item Buckler, E.S. et al. Science 325, 714-8 (2009).
 \item Chia, J.-M. et al. Nature Genetics 44: 803-807 (2012).
