@@ -15,6 +15,9 @@ OK:
 ##### Data Management Plan (nsfdataman.tex): JRI to write
 OK: 
 
+##### Broader Impacts (nsfdec.tex): **Done**
+OK: 
+
 ##### Letter of Support, Arnold Bloom: JRI to write 
 OK: 
 
