@@ -12,11 +12,12 @@ OK:
 ##### Facilities: **Done**
 OK:
 
-##### Data Management Plan (nsfdataman.tex): JRI to write
-OK: 
+##### Data Management Plan (nsfdataman.tex): **Done**
+OK: JRI
 
-##### Broader Impacts (nsfdec.tex): **Done**
+##### Broader Impacts (nsfdesc.tex): **Done**
 OK: 
+Notes: germplasm section needs emphasis on germplasm we will create and distribute
 
 ##### Letter of Support, Arnold Bloom: JRI to write 
 OK: 
@@ -26,6 +27,10 @@ OK:
 
 ##### Prior funding (nsfdesc.tex): **Done**
 OK: JRI
+
+##### AIM 1.1 QTL mapping of highland adaptation traits: **Done**
+OK:
+Notes: Needs text relating to the why of rest of grant. How does this answer questions? What will we learn?
 
 ##### AIM 1.2 Admix mapping: Matt to write
 OK: 

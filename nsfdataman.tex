@@ -2,9 +2,9 @@
 \renewcommand{\thepage}{Data Management Plan - Page \arabic{page} of 1}
 \required{Supplementary Documentation}
 \required{Data Management Plan}
-\begin{center}
-\emph{Maximum of 2 pages}
-\end{center}•
+%\begin{center}
+%\emph{Maximum of 2 pages}
+%\end{center}•
 % Maximum of 2 pages
 %------------------------------
 
@@ -36,10 +36,28 @@
 % Management Plan may not be used to circumvent the 15-page Project Description
 % limitation.
 
-Prior experience -- shared data on iPlant, used figshare, slideshare
+\subsection*{Data Types}
 
-Sequence data -- backed up on drobo at RILab and iPlant, submitted to SRA, genotypes on data dryad or figshare
+This proposal will generate sequence data, genotype, phenotype data, analytical software, teaching resources, germplasm, and publications.
 
-Germplasm -- germplasm sent to stock center, smaller lots kept in database. mysql database accessible by all labs.
+\subsection*{Data Access, Sharing}
 
+Sequence data of the parental lines will be deposited to NCBI sequence read archive (SRA) along with passport information on each parent. 
 
+Phenotypic data and genotypes from sequencing and GBS will be uploaded to Figshare, where it can be associated with other data (publications, links to germplasm, SRA, code). Data will be grouped into projects, and each project is associated with a unique digital object identifier (DOI). PIs Ross-Ibarra and Coop have already used figshare extensively to share and archive data, preprints, and code (see \url{http://figshare.com/authors/Jeffrey_Ross-Ibarra/98899}  and \url{http://figshare.com/authors/Graham_Coop/101524}). Data on figshare is publicly available and searchable.
+
+Analytical software and code from this project will be hosted on github, a version-controlled public git repository.  Upon submission of papers all code will be made publicly available.  PIs Ross-Ibarra and Coop have already done this extensively (see \url{https://github.com/rossibarra}, \url{https://github.com/rilab}, and \url{https://github.com/cooplab}). Publication of all code will ensure reproducibility of all analyses conducted.  
+
+All appropriate metadata including plant ID, data collector, sequence run, field location, etc. will be associated with genotype and phenotype data deposited to figshare. 
+
+Presentations and teaching resources from our field workshop will also be made publicly available via the Slideshare website.
+
+All publications resulting from this project will be submitted to one or more preprint servers (e.g. arXiv, bioRxiv, PeerJ) such that they will be publicly available immediately upon submission of the paper for publication.
+
+All data, code, and presentations will be made publicly available via a creative commons CC by 2.0 license (http://creativecommons.org/licenses/by/2.0/) allowing free access to reuse, redistribute, and modify, requiring only citation of the license and the original source.
+
+\subsection*{Data Archiving}
+
+All data, code, presentations, and publications will be made publicly available online (see above).  Prior to public release, all data will be hosted locally.  PI Ross-Ibarra will maintain a backup of all raw genotyping, sequence, and phenotyping data.  His lab maintains a DROBO distributed backup server (currently >8Tb of free space) which is robust to single disk failure. All analytical code will be hosted on github, which maintains version-controlled backups, as private repositories until release. 
+
+Seed will be maintained in climate-controlled conditions at Iowa State. International agreements prohibit some of the maize and teosinte germplasm collected from being stored by USDA.  We will deposit small quantities of seed from all our collections with the CIMMYT germplasm bank in Mexico, and deposit samples of our mapping populations in the USDA-ARS Maize Stock Center at the University of Illinois.  Both centers provide public access to seed.
