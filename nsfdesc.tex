@@ -103,7 +103,7 @@ blah blah F$_ST$ \ref{fig:fst}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\thesection}{Aim \arabic{section}}
-\section{Genetic architecture of highland traits}
+\section{Genetic architecture of highland traits} \label{qtl}
 
 \subsection*{Questions}
 \begin{itemize}
@@ -113,7 +113,7 @@ blah blah F$_ST$ \ref{fig:fst}.
 \item Are highland QTL/loci widespread in highland climes?
 \end{itemize}
 
-\subsection{QTL mapping of highland adaptation traits}
+\subsection{QTL mapping of highland adaptation traits} \label{subsec:qtlmap}
 %\begin{itemize}
 %\item Phenotyping at 4 sites: 
 %\item 960 F2:3 families; 40 checks
@@ -225,7 +225,7 @@ Raw data from each plot will be analyzed using mixed-models incorporating replic
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Adaptive introgression of highland alleles}
+\section{Adaptive introgression of highland alleles} \label{sec:selection}
 
 \subsection*{Questions}
 \begin{itemize}
@@ -267,44 +267,65 @@ Parallelism across pops in hybrid zone
 \end{itemize}
 
 \subsection{Fine map pigmentation} \label{subsec:pigment}
-\begin{itemize}
-\item PT x T43 NIL population (RS)
-\item GBS genotyping (MBH)
-\end{itemize}
+%\begin{itemize}
+%\item PT x T43 NIL population (RS)
+%\item GBS genotyping (MBH)
+%\end{itemize}
 
 \subsection{Allelic series for QTL of interest} \label{subsec:series}
-\begin{itemize}
-\item 10 parents:
-\begin{itemize}
-\item 4 parents F2:3
-\item mexicana TIL18
-\item Palomero Toluqueño
-\item 2 lowland landraces
-\item 2 highland landraces
-\end{itemize}
-\item Cross into 3 parents for phenotyping
-\begin{itemize}
-\item B73 (SFG)
-\item T43 (MBH)
-\item CML457 (RS)
-\end{itemize}
-\end{itemize}
+%\begin{itemize}
+%\item 10 parents:
+%\begin{itemize}
+%\item 4 parents F2:3
+%\item mexicana TIL18
+%\item Palomero Toluqueño
+%\item 2 lowland landraces
+%\item 2 highland landraces
+%\end{itemize}
+%\item Cross into 3 parents for phenotyping
+%\begin{itemize}
+%\item B73 (SFG)
+%\item T43 (MBH)
+%\item CML457 (RS)
+%\end{itemize}
+%\end{itemize}
 
-\subsection{RNAseq} \label{subsec:rnaseq}
-\begin{itemize}
-\item Time series analysis of plants in field (ACJ):
-\item 15 Lines
-\begin{itemize}
-\item 4 F2:3 parents
-\item 1 NIL chr4,
-\item 1 each mex \& parv TIL
-\item B73, CML457, T43, PT
-\item highland/lowland landraces used in allelic series (MBH to inbreed)
-\end{itemize}
-\item 12 plants per line per environment (2 pools of 6)
-\item 4 stages/tissues per plant
-\item 2 environments (high/low fields)
-\end{itemize}
+\subsection{Gene expression} \label{subsec:rnaseq}
+
+%needs mention of phenotyping of 
+
+We will first assess the effects of high and low elevation environments on genome-wide expression differences to identify genes responsive to these environments.  We will grow six inbred lines (the four parents of our mapping populations in  \ref{subsec:qtlmap}, the reference genome B73, and the highland-adapted tropical inbred CML457) in both of our field sites \ref{tab:locales}.  From each inbred we will sample leaf and root tissue from four plants at each of two time stages (seedling and flowering adult). Tissue will be flash frozen and sent to UC Davis for extraction and sequencing (multiplexed 12 individuals per lane of an Illumina HiSeq 2500) at the UC Davis Genome Center. Each individual will be barcoded such that we will have 4 biological replicates for each tissue/time/environment combination. We will assess differences in expression across environments and identify overlap between differentially expressed (DE) genes and QTL from \ref{sec:qtl}, loci showing selection identified in \ref{sec:selection}, and introgressed regions showing phenotypic differences in \ref{subsec:pigmen,subsec:series}.   These results will help narrow down potential candidate genes in QTL and serve as functional validation of loci showing population genetic evidence of selection in introgressed and admixed populations.  The data will also allow investigation of the relationship between phenotypic plasticity and adaptive change \citep[c.f.][]{Rosas26082013} via comparison of DE genes among environments for a single inbred to differences in DE genes among inbreds to ask whether genes showing a plastic response in unadapted material (lowland landraces, B73) show constitutive response in adapted lines (CML457, highland landraces).  Comparisons with CML457 will be of particular interest, as it is an inbred line developed from lowland germplasm but bred for highland environments.
+
+Our second approach will be a targeted analysis of transcriptomic changes in the NIL lines from \ref{subsec:series}.  For each of six NIL populations, we will evaluate root and shoot tissues of four plants sampled at seedling and flowering stage for each of the two genotypes (homozygous B73, homozygous donor).  Samples will be extracted and sequenced as described above. These analyses will allow us to refine potential candidate loci within introgressed segments of our NILs, moving us closer to a functional characterization of observed phenotypic differences. Whole-transcriptome analysis will also give us a clear picture of changes in co-expression networks \citep[c.f.][]{Swanson-Wagner02072012}, highlighting the effects of introgressed genes on expression patterns in the rest of the genome and enabling us to begin to dissect the genetic pathways involved in adaptive highland traits.
+
+
+%\begin{itemize}
+%\item Time series analysis of plants in field (ACJ):
+%\item 15 Lines
+%\begin{itemize}
+%\item 4 F2:3 parents
+%\item 1 NIL chr4,
+%\item 1 each mex \& parv TIL
+%\item B73, CML457, T43, PT
+%\item highland/lowland landraces used in allelic series (MBH to inbreed)
+%\end{itemize}
+%\item 12 plants per line per environment (2 pools of 6)
+%\item 4 stages/tissues per plant
+%\item 2 environments (high/low fields)
+%\end{itemize}
+
+%To identify genes in maize that respond to highland environments conditions, we propose a transcriptome-based integrated approach based on field and greenhouse experiments. We will intersect phenotypes within a genotype with those across a panel of genotypes to uncover genetic variation underlying phenotypic plasticity associated to highland adaptation. We tested this approach sucessfully in Arabidopsis and found that genes that enable a functional response to the environment via phenotypic plasticity within a genotype underlie adaptive changes across genotypes (Rosas et al 2013). We will first generate transcriptomes from the reference genotype B73, a recurrent parent in the development of NILs (Aim 3.1). We will grow 90 plants in each of several sites that represent the environmental gradient of low to highland maize in Mexico. Three lowland sites (Valle de Banderas, Irrigated Winter; San Juan de Abajo, Irrigated Winter; Ameca, Rain Summer; two mid-elevation (Irapuato, Irrigated Summer, Celaya; Rain Summer and three highland sites (Amealco, Toluca, Texcoco all Rain Highland). Phenotypic data will be gathered as in Aim 1.1. We will plant one set of 30 plants at the beginning of the month during three months in 2015 (90 plants/genotype/environment) to obtain replicates that represent variability in these local environments. From each set we will sample leaf and root tissue at the 8-leaf stage from four plants for a total of 192 samples (2 tissues x 4 plants x 3 dates x 8 sites). Each of the sites will be characterized environmentally locally and with information from INEGI (Mexico) and from raster-formatted climate data from the Worldclim database. This experiment represents our ‘Field Environment’. 
+
+%Our hypothesis is that significant gene expression changes observed in the B73 reference genotype will suggest plastic mechanisms that better adapt the plant to lowland and highland enviroments. Furthermore, we predict that in genotypes adapted to either the lowland or highland niche, many of these transcriptional changes will be constitutive with respect to the B73 reference. To test this, we will generate transcriptomes from locally-adapted genotypes growning in one controlled environment. We will grow genotypes that represent an array of phenotypic and genetic variation in maize, including key targets in this proposal: B73; Palomero Toluqueño; four parents of our F2:3 mapping population (Aim 1.1); CML457, T43 (Aim X); B73 NILs Chr 4 (Aim X); the highland/lowland landraces used in the allelic series (Aim 3.1); and mexicana and parviglumis teosintes, as well as three individuals from their admixed populations (Aim 2.1) for a total of 16 genotypes. Phenotypic data will be gathered as in Aim 1.1. We will generate transcriptomes from six biological replicates from shoots and roots from each genotype at the 8-leaf stage, for a total of 192 samples. This experiment represents our ‘Greenhouse Environment’
+%We will identify the subset of climate variables that best summarizes each environment in our Field Experiment using a principal components (PC) analysis \citep{Yoder17012014}. Variance in expression patterns, topologies of coexpression networks and other analyses will identify genes whose expression and co-regulation is altered in the three environmental conditions (Swanson-Wagner et al 2012). Candidate genes underlying variation in Highland Adaptation will be those genes that behave as outliers from standing variation in the maize pan-transcriptome \citep{Hirsch01012014, Swanson-Wagner02072012} and in this set of experiments, and that are common only in and in all Highland sites. Genes overrepresented in candidate adaptive regions (e.g. Chr4; QTL identified in Aim X) are especially interesting. 
+%A key premise here is that accessibility of the phenotypic plasticity space of a single genotype (B73) depends on the activity of the same genes controlling variation across many other genotypes within a species citep{Rosas26082013}. To test this principal components of the phenotypic data from the ‘Field Environment’ and the ‘Greenhouse Environment’ will be correlated using a mixed model to the a) main environmental variables from the Field Experiment; b) to GBS (Aim 2) and c) transcriptome-based SNPs (Swanson-Wagner et al 2012 & this study) to identify genetic variants that explain the variation in Highland conditions \citep{Rosas26082013}. By projecting one experiment onto the plasticity space of the other, it will be possible to identify gene expressin patterns that are shared among and within genotypes.
+%Downstream tests can evaluate if mutants in candidate genes involved in phenotypic plasticity exhibit atypical phenotypic responses to their respective environment, exploring the functional mechanism of these genes citep{Rosas26082013}. Candidate genes can be re-sequenced in field populations and Highland landraces of various environments throughout Mexico and analyzed with a landscape genetic framework. Finally, transcriptomes generated here in addition to recently published transcriptome data for maize can enable a phylogenomic approach to identify the origin and functional importance of Highland Architecture genes in other plants \citep{lee2011}. 
+
+
+
+
+
+
 
 
 
@@ -347,28 +368,19 @@ We propose an international student exchange program between the PIs in the U.S.
 The USDA-ARS group in Columbia has developed a streamlined phenotypic data collection system utilizing a handheld barcode device, barcoded plant tags, and barcoded phenotyping tools in order to maximize efficiency.  We will host a phenotyping workshop in Columbia during each year of the grant.  Through this workshop, Dr. Flint-Garcia’s state-of-the-art system will be transferred to other research institutions to aid in large-scale data collection. The phenotyping workshop will include topics on Experimental Design, setting up the FieldBook database, and Data Collection.  Experimental design topics include understanding where variation comes from, how to control for environmental/field variability and experimental error; heritability and repeatability.  The need for consistent data collection and high-throughput will be emphasized.  FieldBook database setup topics include setting up Palm handheld users, locations, traits, projects, assigning plots to projects, assigning traits and measurements to projects,  generating barcoded plant tags, and loading the program and trait groups to the Palm to prepare for data collection.  Topics to be covered in Data Collection include data collection for specific traits related to local adaptation of interest to our group, synchronizing data from the palm with the desktop/laptop database, managing data conflicts between the palm and the database, running reports, and exporting data.  This proposal will provide travel support for instructors.  The workshop will be free but participants will be expected to purchase their own Palm handheld and pay for their own travel.  The workshop will be held each year in late summer so that the participants can gain hands-on experience in data collection in the corn field.
 
 \subsection*{Software} %JRI and GC
-\begin{itemize}
-\item R code for novel analysis for admixed populations
-\item Software \& pipelines on github 
-\end{itemize}
 
-%needs tweaking/cutting, currently verbatim from Coop's last grant.
+A good understanding of population and quantitative genetics is key to a student’s understanding of genetics and evolution, but these subjects are often conceptually quite difficult. An understanding of genetic variation and its phenotypic effects is also an increasingly important part of being an informed citizen, due to the rise of personal genomics and genomic medicine \citep[e.g.][]{redfield2012}. The large amount of population genetic and association data being generated offers a superb chance to motivate these subjects using real data. 
+We will develop undergraduate teaching modules in population and quantitative genetics using data from this project. These modules will be tested and integrated into large undergraduate teaching courses (introductory evolutionary biology and genetics) at UC Davis and graduate courses at UC Davis and Iowa State (ecological genomics). We have already begun to develop and distribute some of these resources, e.g. genome-scale demonstrations of Hardy Weinberg Equilibrium (HWE) using  human HapMap data. Such demonstrations underscore the usefulness of basic population genetics in describing real world patterns, and begin to expose students to the wealth of genomics data being collected. 
+Other examples will include: using association data from our admixed populations to demonstrate quantitative genetics models; and explaining concepts of genetic and genealogical ancestry using genomic identity by descent.  These modules will be prepared in the open source statistical program R, to ensure that they are easily used, modified, and distributed, and to expose students to programming in biology. The modules will be designed so that they can be tailored for use at a variety of levels from teaching basic concepts to large undergraduate classes to providing the raw data for programming exercises for upper division courses.
 
-A good understanding of population and quantitative genetics is key to a student’s understanding of genetics and evolution, but these subjects are often conceptually quite difficult. An understanding of genetic variation and its phenotypic effects is also an increasingly important part of being an informed citizen, due to the rise of personal genomics and genomic medicine \citep[e.g.][]{redfield2012}. The large amount of population genetic and association data being generated offers a superb chance to motivate these subjects using real – and pertinent - data. 
-We will develop undergraduate teaching modules in population and quantitative genetics using publicly available human data. These modules will be tested and integrated into the large undergraduate teaching courses at UC Davis. We have already begun to develop and distribute some of these resources, e.g. genome-scale demonstrations of Hardy Weinberg Equilibrium (HWE) using the human HapMap data, see Figure 4. Such demonstrations underscore the usefulness of basic population genetics in describing real world patterns, and begin to expose students to the wealth of genomics data being collected. They also offer the chance to more easily teach more complex population genetics concepts. For example, in a mixed population sample the heterozygosity is reduced below the HWE expectation by a factor (1-FST); this can easily be seen and explained for a combined sample of Europeans and Africans (right-side of Figure 4)
-Other examples will include: using height association data to demonstrate quantitative genetics models; and explaining concepts of genetic and genealogical ancestry using genomic identity by descent. We will also develop software to examine signals of selection around human adaptations, to allow students to examine the patterns of diversity around these loci in the common visual framework. These modules will be prepared in the open source statistical program R, to ensure that they are easily used, modified, and distributed, and to expose students to programming in biology. The modules will be designed so that they can be tailored for use at a variety of levels from teaching basic concepts to large undergraduate classes, to providing the raw data for programming exercises for upper division courses.
-
-The modules will be publicly distributed (see Data Management Plan), and advertised via evoldir and other venues. We will be develop and archive the modules on github.com in a fully open manner. The use of github will allow others to modify and extend the modules and to share and track these modifications. We will regularly deposit updated versions of the modules into figshare and data dryad in order to ensure that a permanent resource is maintained. 
+The modules will be publicly distributed via Github (see Data Management Plan) in a fully open manner. The use of github will allow others to modify and extend the modules and to share and track these modifications. 
 
 \subsection*{Germplasm resources} %MBH, SFG and RS
+%The highland environment remains an important niche for global maize production, in terms of acreage and farmer involvement, if not overall yield. The highland environment presents a number of important abiotic challenges beyond high elevation per se, including periods of drought and cold, and highland adapted material has great potential to provide an important source of stress tolerance; the rapid development and inherent earliness of highland material, for example, may have general application in marginal environments. 
 
-%need emphasis on germplasm we will create (mapping pops etc.) that will be in germplasm banks
+This project will generate multiple germplasm resources.  Seed from the F2 parents will allow additional use of this mapping population to study additional phenotypes of interest (e.g. root morphology and growth).  Seed from our NIL populations will allowing investigation of genome-wide introgressions from a variety of exotic lines.  Such material could be of interest to the Germplasm Enhancement of Maize (http://www.public.iastate.edu/~usda-gem/) project as well as to public and private breeders both in the US and abroad. In Mexico, for example, the highland niche represents a key target market for an emerging private sector of small breeding companies established following deregulation in 1990s. While highland adapted hybrids are available, these are largely derived from lowland sub-tropical material with little or no contribution of the highland landraces and the germplasm developed here could be an important contribution to furthering such programs. Finally, seed from our collections of teosinte will enhance the sampling of these subspecies and provide additional diversity not currently present in germplasm banks.  Seed from our mapping populations will be deposited in the USDA-ARS Maize Stock Center at the University of Illinois, and backups will be kept at Iowa State and Missouri.
 
-The highland environment remains an important niche for global maize production, in terms of acreage and farmer involvement, if not overall yield. The highland environment presents a number of important abiotic challenges beyond high elevation per se, including periods of drought and cold, and highland adapted material has great potential to provide an important source of stress tolerance; the rapid development and inherent earliness of highland material, for example, may have general application in marginal environments. 
-
-In Mexico, the highland niche represents a key target market for an emerging private sector of small breeding companies, established following deregulation in 1990s. While highland adapted hybrids are available, these are largely derived from lowland sub-tropical material with little or no contribution of the highland landraces. This project will move this important germplasm a step closer to breeding programs, and in doing so strengthen ties between the broader academic community (represented here by both US and Mexican institutions) and the Mexican private sector (letter of support UNISEM).
-
-This project will also build further the collaboration between US institutions and LANGEBIO, with a number of Mexican graduate students being directly involved. While Mexican plant science retains a traditionally strength in biochemistry and molecular biology, genetics has been less well represented in recent years. As a consequence, while there is ready access to genomics technologies, the human resources to make the most of the opportunities they present may be lacking. This project provides an excellent opportunity for capacity building in a Mexican institution, with the expectation of a lasting impact through future collaboration.
+%This project will also build further the collaboration between US institutions and LANGEBIO, with a number of Mexican graduate students being directly involved. While Mexican plant science retains a traditionally strength in biochemistry and molecular biology, genetics has been less well represented in recent years. As a consequence, while there is ready access to genomics technologies, the human resources to make the most of the opportunities they present may be lacking. This project provides an excellent opportunity for capacity building in a Mexican institution, with the expectation of a lasting impact through future collaboration.
 
 \required{Results From Prior NSF Support}
 % 5 pages or fewer of the 15 pages for entire description document.

@@ -16,8 +16,7 @@ OK:
 OK: JRI
 
 ##### Broader Impacts (nsfdesc.tex): **Done**
-OK: 
-Notes: germplasm section needs emphasis on germplasm we will create and distribute
+OK: JRI
 
 ##### Letter of Support, Arnold Bloom: JRI to write 
 OK: 
@@ -35,7 +34,7 @@ Notes: Needs text relating to the why of rest of grant. How does this answer que
 ##### AIM 1.2 Admix mapping: Matt to write
 OK: 
 
-##### AIM 1.3 Highland Haplotypes: Angelica to write
+##### AIM 1.3 Highland Haplotypes: Matt to write
 OK: 
 
 ##### AIM 2.1 maize-teo introgression: JRI to write
@@ -47,11 +46,17 @@ OK:
 ##### AIM 3.1 Fine mapping: Ruairidh to write
 OK: 
 
-##### AIM 3.1 Allelic series: Ruairidh to write
+##### AIM 3.2 Allelic series: Ruairidh to write
 OK: 
 
-##### AIM 3.3 RNAseq: Angelica to write
+##### AIM 3.3 RNAseq: **Done**
 OK: 
+
+### To Do
+
+check NILs in RNA-seq jives with NILs in 3.2 and 3.2
+
+
 
 
 ### Files
