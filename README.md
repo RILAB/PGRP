@@ -56,6 +56,9 @@ OK:
 
 check NILs in RNA-seq jives with NILs in 3.2 and 3.2
 
+phenotyping of NILs/donors in RNA-seq section?
+
+make sure everything is on the calendar!!
 
 
 
