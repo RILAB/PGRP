@@ -15,6 +15,7 @@ letters of support from Bloom, Angelica, Ruairidh.
 
 add growth chamber stuff into QTL and NIL sections
 
+fill out phenotype table with expected differences
 
 
 ### Status of sections:
