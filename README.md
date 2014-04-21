@@ -1,6 +1,22 @@
 PGRP
 ====
 
+### To Do
+
+check NILs in RNA-seq jives with NILs in 3.2 and 3.2
+
+check # of sites etc. jives throughout proposal
+
+phenotyping of NILs/donors in RNA-seq section?
+
+make sure everything is on the calendar!!
+
+letters of support from Bloom, Angelica, Ruairidh.
+
+add growth chamber stuff into QTL and NIL sections
+
+
+
 ### Status of sections:
 
 ##### Postdoc Mentoring Plan (nsfpdoc.tex): **Done**
@@ -39,7 +55,9 @@ OK:
 ##### AIM 2.1 selection in admixed pops: JRI to write
 OK: 
 
-##### AIM 3.1 Fine mapping: Ruairidh to write
+##### AIM 3.1 Fine mapping: **Done**
+needs growth chamber and outcomes.
+
 OK: 
 
 ##### AIM 3.2 Allelic series: Ruairidh to write
@@ -48,17 +66,6 @@ OK:
 ##### AIM 3.3 RNAseq: **Done**
 OK: 
 
-### To Do
-
-check NILs in RNA-seq jives with NILs in 3.2 and 3.2
-
-check # of sites etc. jives throughout proposal
-
-phenotyping of NILs/donors in RNA-seq section?
-
-make sure everything is on the calendar!!
-
-letters of support from Bloom, Angelica, Ruairidh.
 
 
 ### Files

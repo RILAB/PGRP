@@ -116,15 +116,6 @@ One of the primary goals of this proposal is to determine the genetic architectu
 \end{itemize}
 
 \subsection{QTL mapping of highland adaptation} \label{subsec:qtlmap}
-%\begin{itemize}
-%\item Phenotyping at 4 sites: 
-%\item 960 F2:3 families; 40 checks
-%\item population development (RS, SFG)
-%\item genotyping and mapping (JRI, SFG)
-%\item DNA extraction, genotypes (SFG)
-%\item Sequence parents (JRI)
-%\item Mapping (SFG)
-%\end{itemize}
 
 The first objective of this project is to identify the genomic regions controlling highland adaptation in maize, we will conduct QTL mapping studies of one Mexican and one South American population, each derived by crossing an inbred landrace adapted to lowland conditions with a landrace adapted to highland conditions \ref{tab:qtlpops}.  We make use of specially-inbred landrace lines created by John Doebley (U. Wisconsin) and Seth Murray (Texas A\&M), thus simplifying downstream mapping applications and allowing replication of alleles in the our functional studies (see \ref{sec:funchar}). 
 
@@ -143,7 +134,7 @@ S. America	& Araguito	& Venezuela (183)	&  F1 \\
 \end{center}
 \end{table} 
 
-Because we plan to evaluate these populations in replicated trials over multiple years, we will self-pollinate the F2 plants to create 500 F2:3 families from each population.  DNA will be extracted from each of the F2 plants and used for genotypic analysis.   The parents of the population will be sequenced to 20-30X depth on two lanes of Illumina 150bp paired-end, providing genome-scale SNP data similar in scale (tens millions of markers) to our previous work in maize  \citep[HapMap.v2;][]{Chia2012a}.  F2 plants will be genotyped using genotyping-by-sequencing \citep[GBS;][]{Elshire2011} and run through the standard maize GBS pipeline \citep{Glaubitz2014} resulting in approximately ~1M SNPs and allowing simple imputation of full-genome sequence.  The genetic map will be created using standard methods \citep[e.g.][]{Broman2003a}. 
+Because we plan to evaluate these populations in replicated trials over multiple years, we will self-pollinate the F2 plants to create 500 F2:3 families from each population.  DNA will be extracted from each of the F2 plants and used for genotypic analysis.   The parents of the population will be sequenced to 20-30X depth on two lanes of Illumina (150bp paired-end reads on a HiSeq 2500 at the UC Davis Genome Center), providing genome-scale SNP data similar in scale (tens millions of markers) to our previous work in maize  \citep[HapMap.v2;][]{Chia2012a}.  F2 plants will be genotyped using genotyping-by-sequencing \citep[GBS;][]{Elshire2011} and run through the standard maize GBS pipeline \citep{Glaubitz2014} resulting in approximately ~1M SNPs and allowing simple imputation of full-genome sequence.  The genetic map will be created using standard methods \citep[e.g.][]{Broman2003a}. 
 
 \begin{table}
 \rowcolors{2}{gray!25}{white}
@@ -205,21 +196,6 @@ The expected outcomes of this objective will be 1) A map of QTL underlying pheno
 %\end{itemize}
 
 
-%\subsection{Phenotypes}
-%\begin{itemize}
-%\item macrohairs (SFG, RS, MBH)
-%\item flowering time (SFG, RS, MBH)
-%\item tassel morphology (SFG, RS, MBH)
-%\item plant height every 2 weeks \& at flowering (SFG, RS, MBH)
-%\item biomass (SFG, RS, MBH)
-%\item \# ears (mz), 50k weight (mz/teo), total seed weight (mz) (SFG, RS, MBH)
-%\item stem/plant color (SFG, RS, MBH)
-%\item germination depth, temp in greenhouse (F2:3 only; MBH)
-%\item roots (inquire with Bloom)
-%\end{itemize}
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -244,23 +220,16 @@ In aim \ref{sec:qtl} we will map loci corresponding to traits differing between 
 
 And though quantitative genetic theory suggests that adaptive phenotypic change may not correlate with strong evidence for selection on individual loci \citep{le2012genetic}, recently developed methods from CoPI Coop \citep{Berg2013} provide a powerful statistical framework to identify coordinated shifts in allele frequencies at causative QTL (from \ref{sec:qtl} to look for weak selection on alleles underlying highly quantitative traits.  
 
-
 \subsection{Population genetics of maize-teosinte introgression} \label{subsec: intropopgen}
 
 Our previous work \citep{Hufford2013} we documented extensive introgression between \emph{mexicana} teosinte and highland maize landraces, demonstrating an overlap with teosinte QTL for macrohairs and stem pigmentation \citep{Lauter2004a}. Because of the relatively low-density genotyping used, however, we were limited to identifying large regions of ancient introgression present in most populations.  We were also unable to investigate evidence of selection for any of the introgressed regions.  Here we propose to revisit these populations with higher-density genotyping that will allow identification of ongoing gene flow in individual populations and ask whether introgressed regions have been targeted by natural selection.  
 
-We propose to resample 18 individuals from each of the same 9 sympatric population pairs and two allopatric populations studied in \citet{Hufford2013}. Each individual will be genotyped by GBS \ref{Elshire 2011, Glaubitz2014} providing >1M SNPs across the genome (compared to 40K SNPs in \citet{Hufford2013}). We will use both haplotype \ref{price2009sensitive} and heterozygosity-based \ref{Geneva2014} methods to identify introgressed segments in individual populations.  Genomic regions showing evidence of introgression will be tested for selection using population genetic approaches which utilize evidence from the site frequency spectrum \citep{nielsen2005genomic} and haplotype structure \citep{voight2006map}.  Correlations between genetic differentiation and recombination will allow us to investigate selection against introgression \citep{Brandvain2013}, quantifying the "linkage drag" associated with introgression of potentially beneficial adaptive alleles.  Finally, we will again apply the approach of \citet{Berg2013} to evaluate selection on individual phenotypes across highland maize landrace populations.
+We propose to resample 18 individuals from each of the same 9 sympatric population pairs and two allopatric populations studied in \citet{Hufford2013}. Each individual will be genotyped by GBS \ref{Elshire 2011, Glaubitz2014} using greater than normal depth (48 plex) to improve genotyping heterozygous sites.  These data will provide >1M SNPs across the genome (compared to 40K SNPs in \citet{Hufford2013}). We will use both haplotype \ref{price2009sensitive} and heterozygosity-based \ref{Geneva2014} methods to identify introgressed segments in individual populations.  Genomic regions showing evidence of introgression will be tested for selection using population genetic approaches which utilize evidence from the site frequency spectrum \citep{nielsen2005genomic} and haplotype structure \citep{voight2006map}.  Correlations between genetic differentiation and recombination will allow us to investigate selection against introgression \citep{Brandvain2013}, quantifying the "linkage drag" associated with introgression of potentially beneficial adaptive alleles.  Finally, we will again apply the approach of \citet{Berg2013} to evaluate selection on individual phenotypes across highland maize landrace populations.
 
 The expected outcomes of this objective are 1) a fine-scale dissection of both ancient and ongoing introgression 2) identification of introgressed regions showing evidence of positive selection, identifying loci important for highland adaptation,  3) evidence for selection on specific phenotypic traits, 4) quantification of the potential "linkage drag" or evidence against introgression across otehr regions of the genome.
 
 %GBS of 18 inds x 10 pops x 2 subspecies (mex \& maize) (JRI)
 %384 at 48 plex * \$60 = \$23040
-
-%Popgen on maize/mexicana introgression (JRI, GC)
-%Identification of fine-scaled introgressed regions.
-%Evidence of selection against introgression (recombination)
-%Evidence of selection for introgressed regions (sweep signals, deviation of genome-wide admixture signal)
-%Introgressed regions correlate with admix mapping signals? with QTL? Berg approach
 
 \subsection{Population genetics of hybridization in teosinte} \label{subsec: admixpopgen}
 
@@ -277,36 +246,43 @@ Parallelism across pops in hybrid zone
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Functional characterization of QTL} \label{sec:funchar}
+\section{Functional characterization of adaptive QTL} \label{sec:funchar}
+
+After mapping QTL for highland adaptation (\ref{sec:qtl}) and studying their adaptive significance (\ref{sec:selection}), in this aim we will aim to better understand the functional genetic basis of adpative regions.  First, we will fine map a chromosome 4 QTL and study its phenotypic effects introgressed into a maize background (\ref{subsec:nils}).  Then we will evaluate the effects of an allelic series from highland and lowland maize and teosinte at the chromosome 4 QTL (\ref{subsec:series}).  Finally, we will use RNA sequencing data to investigate plasticity, differences in expression, and identify potential candidate loci within QTL (\ref{subsec:rnaseq}).
 
 \subsection{Questions}
 \begin{itemize}
 \item What do QTL/selected loci/introgressed loci do?
 \end{itemize}
 
-\subsection{Fine map pigmentation} \label{subsec:pigment}
-%\begin{itemize}
-%\item PT x T43 NIL population (RS)
-%\item GBS genotyping (MBH)
-%\end{itemize}
+\subsection{Fine mapping and phenotypic evaluation} \label{subsec:nils}
+
+In this objective we propose to functionally characterize the genetics of a large \emph{mexicana}-maize introgression block located on chromosomes 4 (Chr4: 169-180Mb). Our previous analysis \citep{Hufford2013} indicates that this region is supported by a robust signature of introgression, shows broad distribution among highland races , and overlaps with a QTL identified in a \emph{parviglumis} x \emph{mexicana} cross  \citep{Lauter2004a} associated with leaf pigmentation and pubescence. Our analysis of linkage disequilibrium in teosinte suggests that the region represents an inversion polymorphism \citep{Pyhajarvi2013}, suggesting the possibility of characterizing the region as a block by generation of introgression stocks.
+
+We will generate heterogeneous inbred families \citep[HIFS;][]{tuinstra1997heterogeneous} from a cross of the landrace Palomero Toluque\~no (PT) and the reference genome inbred B73.  PT is popcorn originating from the highland valleys of central Mexico that is considered basal to the Mexican highland landrace radiation \citep{reif2006grouping}; it also exhibits the highest level of \emph{mexicana} introgression among characterized material \citep{Matsuoka2002}. Furthermore, inspection of the PT genome sequence \citep{Vielle-Calzada2009} shows that PT carries \emph{mexicana} alleles at two SNPs shown previously to exhibit a fixed difference between  \emph{mexicana} and maize \citep{Hufford2013}. We will screen an existing collection of ~150 B73 x PT BC1S3 (three generations of selfing after 1 generation of back-cross) families to identify HIFs segregating for B73 and PT haplotypes using microsatellite markers we have shown distinguish B73 and PT alleles in this region.  HIFs will be selfed to generate pairs of near-isogenic lines homozygous for the B73 or PT haplotype. In total, we will generate 12 test stocks, including 11 BC4S1 homozygous parents  and the B73 reference line. These will be will be genotyped using GBS \ref{Elshire 2011, Glaubitz2014}  to confirm the extent of introgression at the Chr4 candidate locus and unlinked sites, and selfed to generate BC4S2 seed for phenotypic analysis. These lines will allow estimation of genotypic values at the candidate locus in genomic contexts that contains significant ($\\approx 25\%$) unlinked PT content, capturing potential epistatic effects important to function of the candidate region. 
+
+Outcomes of this objective include XXX YYY ZZZ.
+
+Z replicates B73 x PT  stocks will be grown in our three field sites \ref{tab:locales} and evaluated for phenotypes described in \ref{tab:phenos}. Given the relatively small number of lines test
+
+3.3 Phenotypic analysis
+The bulk of our phenotypic analysis will focus on B73 x PT stocks (described in 3.2.1, above) that will be available from early in the funding period. Diverse NILs (3.2.2) will not be available until year three, at which point they will play a key role in confirmation and dissection of effects identified in PT stocks. The results of targeted characterization of the Chr 4 candidate region may coincide with mapping experiments described in Section X. Given the relatively low number of test stocks, however, we envisage that a greater range and detail of phenotypic characterization will be possible, and that we may well identify effects not directly observed in mapping experiments. In addition to the activities described below, we anticipate that a number of collaborations will be established beyond the scope of the present proposal to allow precision characterization of highly specific phenotypic traits (e.g. cold tolerance; root architecture; biotic interactions). 
+
+
+
+3.3.2 Growth chamber characterization
+MATT? 
+PRECISE PHENOTYPING PIGMENTS AND HAIRS (CONTROLLED LIGHT; METHODS FROM LAUTER; SEM?)
+OTHER SEEDLING TRAITS?
+FOCUS ON 12 HIF FAMILIES?
+
+
 
 \subsection{Allelic series for QTL of interest} \label{subsec:series}
-%\begin{itemize}
-%\item 10 parents:
-%\begin{itemize}
-%\item 4 parents F2:3
-%\item mexicana TIL18
-%\item Palomero Toluqueño
-%\item 2 lowland landraces
-%\item 2 highland landraces
-%\end{itemize}
-%\item Cross into 3 parents for phenotyping
-%\begin{itemize}
-%\item B73 (SFG)
-%\item T43 (MBH)
-%\item CML457 (RS)
-%\end{itemize}
-%\end{itemize}
+
+Introgression of multiple candidate haplotypes into the B73 reference background
+To investigate further functional diversity in the Chr4 candidate region, we will generate a series of NILs by marker-assisted recurrent backcross to B73 using a collection of diverse donor varieties (parental lines of mapping populations described in section X; a reference inbred ssp. mexicana; two additional lowland races; two additional highland races). Exotic donors have been selected on the basis of diverse origin, availability of genomic information and their use in other components of the project. To select for exotic haplotypes during introgression, we will use the SSR markers described above coupled with GBS. Our exotic donors include partially inbred and open-pollinated stocks. Where prior characterization has revealed multiple haplotypes to be present in a single stock, we will select the most common haplotype for introgression by analyzing multiple F1 plants and then selecting a single individual for the first backcross. BC4S2 families are projected to be available by the end of 2017 (Table X). 
+
 
 \subsection{Gene expression} \label{subsec:rnaseq}
 
@@ -353,7 +329,7 @@ Our second approach will be a targeted analysis of transcriptomic changes in the
     \rowcolor{gray!50}
 Year & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
 Objective \ref{subsec: series} Allelic series & 2015 & 2016 & 2017 & 2018 & 2019\\\midrule
-Objective \ref{subsec: pigment} Fine mapping & -- & RS, AC & AC,JRI & AC,JRI & -- \\\midrule
+Objective \ref{subsec: nils} Fine mapping & -- & RS, AC & AC,JRI & AC,JRI & -- \\\midrule
 Objective \ref{subsec: rnaseq} RNA-seq & 2015 & 2016 & 2017 & 2018 & 2019\\\midrule
 Objective \ref{subsec: intropopgen} Maize/mexicana introgression & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
 Objective \ref{subsec: X} Admix mapping & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
