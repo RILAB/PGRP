@@ -105,6 +105,8 @@ blah blah F$_ST$ \ref{fig:fst}.
 \renewcommand{\thesection}{Aim \arabic{section}}
 \section{Genetic architecture of highland traits} \label{qtl}
 
+One of the primary goals of this proposal is to determine the genetic architecture of highland adaptation. Ultimately, this knowledge will be useful for determining the genes underlying these loci (\ref{sec:funchar}) and the pathways involved in adaptation (\ref{sec:selection}). These loci can also be used in maize improvement via marker assisted selection. In this aim we wish to determine how many genomic regions control adaptive phenotypes, where these regions are located, and the distribution of allelic effects at these loci. We first perform comparative QTL analysis in two highland x lowland crosses (\ref{subsec:qtlmap}), then take advantage of historical recombination and greater resolution to map loci in an admixed population of highland and lowland teosinte (\ref{subsec:admixmap}).
+
 \subsection*{Questions}
 \begin{itemize}
 \item What is the genetic architecture of highland adaptation?
@@ -124,7 +126,7 @@ blah blah F$_ST$ \ref{fig:fst}.
 %\item Mapping (SFG)
 %\end{itemize}
 
-In order to identify the genomic regions controlling highland adaptation in maize, we will conduct QTL mapping studies of one Mexican and one South American population, each derived by crossing an inbred landrace adapted to lowland conditions with a landrace adapted to highland conditions \ref{tab:qtlpops}.  We make use of specially-inbred landrace lines created by John Doebley (U. Wisconsin) and Seth Murray (Texas A\&M), thus simplifying downstream mapping applications and allowing replication of alleles in the our functional studies (see \ref{sec:funchar}). 
+The first objective of this project is to identify the genomic regions controlling highland adaptation in maize, we will conduct QTL mapping studies of one Mexican and one South American population, each derived by crossing an inbred landrace adapted to lowland conditions with a landrace adapted to highland conditions \ref{tab:qtlpops}.  We make use of specially-inbred landrace lines created by John Doebley (U. Wisconsin) and Seth Murray (Texas A\&M), thus simplifying downstream mapping applications and allowing replication of alleles in the our functional studies (see \ref{sec:funchar}). 
 
 \begin{table}
 \begin{center}
@@ -141,7 +143,7 @@ S. America	& Araguito	& Venezuela (183)	&  F1 \\
 \end{center}
 \end{table} 
 
-Because we plan to evaluate these populations in replicated trials over multiple years, we will self-pollinate the F2 plants to create 500 F2:3 families from each population.  DNA will be extracted from each ofhte F2 plants and used for genotypic analysis.   The parents of the population will be sequenced to 20-30X depth on two lanes of Illumina 150bp paired-end, providing genome-scale SNP data similar in scale (tens millions of markers) to our previous work in maize  \citep[HapMap.v2;][]{Chia2012a}.  F2 plants will be genotyped using genotyping-by-sequencing \citep[GBS;][]{Elshire2011} and run through the standard maize GBS pipeline \citep{Glaubitz2014} resulting in approximately ~1M SNPs and allowing simple imputation of full-genome sequence.  The genetic map will be created using standard methods \citep[e.g.][]{Broman2003a}. 
+Because we plan to evaluate these populations in replicated trials over multiple years, we will self-pollinate the F2 plants to create 500 F2:3 families from each population.  DNA will be extracted from each of the F2 plants and used for genotypic analysis.   The parents of the population will be sequenced to 20-30X depth on two lanes of Illumina 150bp paired-end, providing genome-scale SNP data similar in scale (tens millions of markers) to our previous work in maize  \citep[HapMap.v2;][]{Chia2012a}.  F2 plants will be genotyped using genotyping-by-sequencing \citep[GBS;][]{Elshire2011} and run through the standard maize GBS pipeline \citep{Glaubitz2014} resulting in approximately ~1M SNPs and allowing simple imputation of full-genome sequence.  The genetic map will be created using standard methods \citep[e.g.][]{Broman2003a}. 
 
 \begin{table}
 \rowcolors{2}{gray!25}{white}
@@ -152,19 +154,19 @@ Because we plan to evaluate these populations in replicated trials over multiple
 Valle de Banderas, Nayarit	& 20.8,\,-105.2&	54		&	15.3/25.8/33.7	&	1184 \\
 Irapuato, Guanajuato 	&	20.7,\,-101.3	&	1729.0	&	7.3/20.2/31.7	&	693 \\
 Amealco, Quer\'etaro 	&	19.5,\,-99.1	&	2240.0 	&	2.3/15.6/27.0	&	626\\
-Columbia, Missouri		& 	28.9,\,-92.2	&	266.1 	&	-17.8/36.0/40.5&	914\\
-Ames, Iowa	& 	X	&	X 	&	X		&	X	 \\ \bottomrule
+Columbia, Missouri		& 	28.9,\,-92.2	&	266.1 	&	-17.8/36.0/40.5&	914\\ \bottomrule
 \end{tabular}
 \end{center}
 \end{table} 
 
-The populations will be phenotyped at 3 field locations, including one lowland site (Valle de Banderas in Mexico), one highland site (Irapuato or Queretaro, Mexico), and one temperate site near Columbia, Missouri (\ref{tab:locales}).  In each location, the experiment will consist of two replications where the 500 entries and parental checks will be arranged in a randomized complete block design or an augmented alpha lattice design. The parental checks will be used to control for field variation.  We will collect a large number of phenotypes (\ref{tab:phenos}) using our in-house barcode-based data collection program. Germination at different planting depths and temperatures will be evaluated in controlled conditions in Ames, Iowa, and root chilling will be evaluated using a custom hydroponic system at the University of California, Davis (see letter of support from Dr. Arnold Bloom).    
+The populations will be phenotyped at 3 field locations, including one lowland site (Valle de Banderas in Mexico), one highland site (Irapuato or Queretaro, Mexico), and one temperate site near Columbia, Missouri (\ref{tab:locales}).  At each field location, best local practices will be used including fertilizers, and pest and weed control.
+In each site, the experiment will consist of two replications where the 500 entries and parental checks will be arranged in a randomized complete block design or an augmented alpha lattice design. The parental checks will be used to control for field variation.  We will collect a large number of phenotypes (\ref{tab:phenos}) using our in-house barcode-based data collection program. Germination at different planting depths and temperatures will be evaluated in controlled conditions in Ames, Iowa, and root chilling will be evaluated using a custom hydroponic system at the University of California, Davis (see letter of support from Dr. Arnold Bloom).    
 
 %\begin{wraptable}{r}{8cm}
 \begin{table}
 \begin{center}
 \rowcolors{2}{gray!25}{white}
-\caption{Phenotypes measured}\label{phenos}
+\caption{Phenotypes measured}\label{tab:phenos}
 \begin{tabular}{llcc}\\\toprule  
 {\bf Abbreviation} & {\bf Phenotype} & {\bf Lowland} & {\bf Highland } \\\midrule
 MH & leaf sheath macrohairs & & \\
@@ -182,10 +184,14 @@ SC & stem anthocyanin content & &\\
 GDP & germination depth & &\\
 GDT & germination temperature & &\\\bottomrule
 \end{tabular}
-\end{center}it
+\end{center}
 \end{table} 
 
-Raw data from each plot will be analyzed using mixed-models incorporating replications and environments.  Data will be analyzed across environments to determine whether location (elevation) affects the various phenotypes, as expected.  Each location will then be analyzed separately to derive least squares means to be used as the phenotypic data in QTL analyses.  QTL analysis will be conducted using standard, publicly available software (e.g. SAS; R/qtl \citealp{Broman2003a}).  Several iterations of QTL analysis will be conducted: on individual traits, individual traits adjusted for covariates such as flowering time, and multiple traits simultaneously.  The QTL profiles will be compared across populations (Mexican vs South American) and across field sites (elevations) to determine how elevation affects putatively adaptive traits.  We expect very different QTL profiles from the highland and lowland evaluation sites, and from the Mexican and South American populations.
+Raw data from each plot will be analyzed using mixed-models incorporating replications and environments.  Data will be analyzed across environments to determine whether location (elevation) affects the various phenotypes, as expected.  Each location will then be analyzed separately to derive least squares means to be used as the phenotypic data in QTL analyses.  QTL analysis will be conducted using standard, publicly available software (e.g. SAS; R/qtl \citealp{Broman2003a}).  Several iterations of QTL analysis will be conducted: on individual traits, individual traits adjusted for covariates such as flowering time, and multiple traits simultaneously.  The QTL profiles will be compared across populations (Mexican vs South American) and across field sites (elevations) to determine how elevation affects putatively adaptive traits.  We expect very different QTL profiles from the highland and lowland evaluation sites, and from the Mexican and South American populations.  Finally, the contrast of each Mexican location to the Missouri location will account for daylength differences and agronomic value in the Midwest. 
+
+The expected outcomes of this objective will be 1) A map of QTL underlying phenotypic differences between highland and lowland maize in Mexico and South America, detailing the number and effect size of each QTL and differences between crosses, and 2) Estimates of fitness differences (PH, BM, SM, and FK \ref{tab:phenos}) of highland and lowland plants, as well as F2 with various combinations of QTL, in both environments. 
+
+%Our expectations follow from the slow adaptation of each landrace to its specific environment (latitude, altitude, and other environmental factors). Finally, the contrast of each Mexican location to the Missouri location will account for daylength differences and agronomic value in the Midwest. One Genotypic studies of germplasm have repeatedly demonstrated that South American highland germplasm has been under-utilization in breeding programs (Goodman? ). The germplasm has been severely limited by inability to “move down the mountain,” which will likely parallel adaptation of other germplasm groups to changing environments.  
 
 %this needs something else. needs to talk about how we will answer questions above. that we will find how many QTL for each trait, that we expect this wil vary from fitness (yield) to color, thus informing us about the lability of these traits and how selection (or breeders) may act on them. also needs to mention fitness, no?  can we not use these pops to tell which traits are adaptive (i.e. genetically correlated to fitness/yield?)
 

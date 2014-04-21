@@ -25,8 +25,7 @@ OK:
 OK: JRI
 
 ##### AIM 1.1 QTL mapping of highland adaptation traits: **Done**
-OK:
-Notes: Needs text relating to the why of rest of grant. How does this answer questions? What will we learn?
+OK: JRI
 
 ##### AIM 1.2 Admix mapping: Matt to write
 OK: 
