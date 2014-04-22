@@ -61,9 +61,8 @@ OK:
 OK: 
 
 ##### AIM 3.1 Fine mapping: **Done**
-needs growth chamber and outcomes.
-
-OK: 
+needs growth chamber?
+OK: JRI
 
 ##### AIM 3.2 Allelic series: Ruairidh to write
 OK: 
