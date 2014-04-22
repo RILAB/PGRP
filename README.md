@@ -17,6 +17,10 @@ add growth chamber stuff into QTL and NIL sections
 
 fill out phenotype table with expected differences
 
+who's doing each section
+
+add root chilling
+
 
 ### Status of sections:
 
