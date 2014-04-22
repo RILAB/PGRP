@@ -3,7 +3,8 @@ PGRP
 
 ### To Do
 
-check NILs in RNA-seq jives with NILs in 3.2 and 3.2
+
+add PIs to each section.
 
 check # of sites etc. jives throughout proposal
 
@@ -17,7 +18,7 @@ add growth chamber stuff into QTL and NIL sections
 
 fill out phenotype table with expected differences
 
-who's doing each section
+edit refs.
 
 add root chilling
 
