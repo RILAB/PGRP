@@ -160,30 +160,44 @@ The populations will be phenotyped at 3 field locations, including one lowland s
 In each site, the experiment will consist of two replications where the 500 entries and parental checks will be arranged in a randomized complete block design or an augmented alpha lattice design. The parental checks will be used to control for field variation.  We will collect a large number of phenotypes (\ref{tab:phenos}) using our in-house barcode-based data collection program. Germination at different planting depths and temperatures will be evaluated in controlled conditions in Ames, Iowa, and root chilling will be evaluated using a custom hydroponic system at the University of California, Davis (see letter of support from Dr. Arnold Bloom).    
 
 %\begin{wraptable}{r}{8cm}
-\begin{table}
-\begin{center}
-\rowcolors{2}{gray!25}{white}
-\caption{Phenotypes measured}\label{tab:phenos}
-\begin{tabular}{llcc}\\\toprule  
-{\bf Abbreviation} & {\bf Phenotype} & {\bf Lowland} & {\bf Highland } \\\midrule
-MH & leaf sheath macrohairs & & \\
-FT & flowering time & & \\
-PH & plant height 			& & \\
-BM & total plant biomass 	& & \\
-EN & ear number			& & \\
-FK & fifty kernel weight & & \\
-TBN & tassel branch number & &\\
-TL & tassel length & &\\
-SM & total kernel mass & &\\
-RC & root chilling response & &\\
-GDP & germination depth & &\\
-SC & stem anthocyanin content & &\\
-GDP & germination depth & &\\
-GDT & germination temperature & &\\\bottomrule
-\end{tabular}
-\end{center}
-\end{table} 
+\begin{columns}[c]
+			\column{0.5\textwidth}
+				\begin{table}
+				\begin{center}
+				\rowcolors{2}{gray!25}{white}
+				\caption{Phenotypes measured}\label{tab:phenos}
+				\begin{tabular}{llcc}\\\toprule  
+				{\bf Abbreviation} & {\bf Phenotype}  \\\midrule
+				MH & leaf sheath macrohairs  \\
+				DTS & days to silking  \\
+				DTA & days to anthesis  \\
+				PH & plant height 			\\
+				BM & total plant biomass 	\\
+				EH & ear number			 \\
+				EN & ear number			 \\
+				FK & fifty kernel weight \\
+				TN & tassel number \\
+				TBN & tassel branch number \\
+				TL & tassel length \\
+				SM & total kernel mass \\
+				RC & root chilling response \\
+				GDP & germination depth \\
+				SC & stem anthocyanin content \\
+				GDP & germination depth \\
+				GDT & germination temperature \\\bottomrule
+				\end{tabular}
+				\end{center}
+				\end{table} 
+		\column{0.5\textwidth}
+\begin{figure}
+  \centering
+   \includegraphics[width=0.5\textwidth]{fourtraits.pdf}
+  \caption{Analysis of simulated admixed populations. 100 generations of admixture between \emph{mexicana} and \emph{parviglumis} were simulated for a 100cM chromosome.  The horizontal gray line represents the mean level of admixture along the chromosome.  A  beneficial \emph{mexicana} allele with selection strength $s=0.1$ was simulated at position 10cM (red vertical line), showing that variation in ancestry along a chromosome can be used to detect selection in admixed population. } 
 
+\label{fig:fourtraits}
+\end{figure}
+
+\end{columns}
 Raw data from each plot will be analyzed using mixed-models incorporating replications and environments.  Data will be analyzed across environments to determine whether location (elevation) affects the various phenotypes, as expected.  Each location will then be analyzed separately to derive least squares means to be used as the phenotypic data in QTL analyses.  QTL analysis will be conducted using standard, publicly available software (e.g. SAS; R/qtl \citealp{Broman2003a}).  Several iterations of QTL analysis will be conducted: on individual traits, individual traits adjusted for covariates such as flowering time, and multiple traits simultaneously.  The QTL profiles will be compared across populations (Mexican vs South American) and across field sites (elevations) to determine how elevation affects putatively adaptive traits.  We expect very different QTL profiles from the highland and lowland evaluation sites, and from the Mexican and South American populations.  Finally, the contrast of each Mexican location to the Missouri location will account for daylength differences and agronomic value in the Midwest. 
 
 The expected outcomes of this objective will be 1) A map of QTL underlying phenotypic differences between highland and lowland maize in Mexico and South America, detailing the number and effect size of each QTL and differences between crosses, and 2) Estimates of fitness differences (PH, BM, SM, and FK \ref{tab:phenos}) of highland and lowland plants, as well as F2 with various combinations of QTL, in both environments. 
@@ -249,7 +263,7 @@ The expected outcomes of this objective are 1) a fine-scale dissection of both a
 \begin{SCfigure}
   \centering
   \caption{Analysis of simulated admixed populations. 100 generations of admixture between \emph{mexicana} and \emph{parviglumis} were simulated for a 100cM chromosome.  The horizontal gray line represents the mean level of admixture along the chromosome.  A  beneficial \emph{mexicana} allele with selection strength $s=0.1$ was simulated at position 10cM (red vertical line), showing that variation in ancestry along a chromosome can be used to detect selection in admixed population. } 
-   \includegraphics[width=0.5\textwidth]{admix.pdf}
+   \includegraphics[width=0.5\textwidth]{admix.png}
 \label{fig:cline}
 \end{SCfigure}
 
@@ -285,8 +299,9 @@ In this objective we propose to functionally characterize the genetics of a larg
 
 \begin{figure}
   \centering
-  \caption{Clinal variation at the Chr4 inversion. Genetic distance (\# of SNPs) from the canonical highland haplotype is plotted against elevation for 20 teosinte populations (shown as different colors).  Low elevation (<1500m) populations lack the inversion completely, while it is fixed in populations abouve 2000m. Data from \citet{Pyhajarvi2013}. } 
-   \includegraphics[width=0.7\textwidth]{chr4.pdf}
+   \includegraphics[width=0.7\textwidth]{chr4.png}  \caption{Clinal variation at the Chr4 inversion. Genetic distance (\# of SNPs) from the canonical highland haplotype is plotted against elevation for 20 teosinte populations (shown as different colors).  Low elevation (<1500m) populations lack the inversion completely, while it is fixed in populations abouve 2000m. Data from \citet{Pyhajarvi2013}. } 
+
+
 \label{fig:cline}
 \end{figure}
 
