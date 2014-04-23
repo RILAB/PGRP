@@ -12,11 +12,9 @@ phenotyping of NILs/donors in RNA-seq section?
 
 make sure everything is on the calendar!!
 
-letters of support from Bloom, Angelica, Ruairidh.
+add letters of support from Bloom, Angelica, Ruairidh, company.
 
 add growth chamber stuff into QTL and NIL sections
-
-fill out phenotype table with expected differences
 
 edit refs.
 
