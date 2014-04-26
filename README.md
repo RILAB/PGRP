@@ -4,33 +4,16 @@ PGRP
 ### To Do
 
 
-add PIs to each section.
-
-check # of sites etc. jives throughout proposal
-
-phenotyping of NILs/donors in RNA-seq section?
-
-make sure everything is on the calendar!!
-
-add letters of support from Bloom, Angelica, Ruairidh, company.
-
-add growth chamber stuff into QTL and NIL sections
-
-edit refs.
-
-add root chilling
-
-
 ### Status of sections:
 
 ##### Postdoc Mentoring Plan (nsfpdoc.tex): **Done**
 OK: JRI
 
-##### Summary (nsfsumm.tex): Matt to write
+##### Summary (nsfsumm.tex): Matt/Jeff to write
 OK:
 
 ##### Facilities: **Done**
-OK:
+OK: JRI
 
 ##### Data Management Plan (nsfdataman.tex): **Done**
 OK: JRI
@@ -38,8 +21,8 @@ OK: JRI
 ##### Broader Impacts (nsfdesc.tex): **Done**
 OK: JRI
 
-##### Rationale and Singificance: Matt to write 
-OK: 
+##### Rationale and Singificance: **Done**
+OK: JRI
 
 ##### Prior funding (nsfdesc.tex): **Done**
 OK: JRI
@@ -47,27 +30,26 @@ OK: JRI
 ##### AIM 1.1 QTL mapping of highland adaptation traits: **Done**
 OK: JRI
 
-##### AIM 1.2 Admix mapping: Matt to write
-OK: 
-
-##### AIM 1.3 Highland Haplotypes: Matt to write
-OK: 
-
-##### AIM 2.1 maize-teo introgression: **Done**
-OK: 
-
-##### AIM 2.1 selection in admixed pops: JRI to write
-OK: 
-
-##### AIM 3.1 Fine mapping: **Done**
-needs growth chamber?
+##### AIM 1.2 Admix mapping: **Done**
 OK: JRI
 
-##### AIM 3.2 Allelic series: Ruairidh to write
-OK: 
+##### AIM 1.3 Highland Haplotypes: **Done**
+OK: JRI
+
+##### AIM 2.1 maize-teo introgression: **Done**
+OK: JRI
+
+##### AIM 2.1 selection in admixed pops: **Done**write
+OK: JRI
+
+##### AIM 3.1 Fine mapping: **Done**
+OK: JRI
+
+##### AIM 3.2 Allelic series: **Done**
+OK: JRI
 
 ##### AIM 3.3 RNAseq: **Done**
-OK: 
+OK: JRI
 
 
 
