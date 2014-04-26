@@ -26,13 +26,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction}
 
-Due to their sessile nature, plants are often particularly adapted through natural selection to their local environments \citep{stebbins1950variation}. Understanding the genetic basis of how plants adapt to local conditions -- how many loci are involved, the effect sizes of adaptive loci, the similarity of adaptations among populations and species -- will facilitate improved breeding and conservation strategies.  This is particularly pressing given current issues of climate change, habitat loss, and population growth \citep{savolainen2013ecological}.  These pressures will require adaptation of crops and wild plants to changing local conditions and cultivation of crops in new locales.   
+Due to their sessile nature, plants are often adapted through natural selection to their local environments \citep{stebbins1950variation}. Understanding the genetic basis of how plants adapt to local conditions -- how many loci are involved, the effect sizes of adaptive loci, the similarity of adaptations among populations and species -- will facilitate improved breeding and conservation strategies.  This is particularly pressing given current issues of climate change, habitat loss, and population growth \citep{savolainen2013ecological}.  These pressures will require adaptation of crops and wild plants to changing local conditions and cultivation of crops in new locales.   
 
 Agricultural species represent promising systems for ongoing research on local adaptation.  Most crops were domesticated in narrow geographic centers but encountered and adapted to a wide range of novel environments as agriculture expanded across the globe \citep{Gepts201451}.  In many instances,  traits important for  local adaptation have already been identified in crops \citep{Gepts201451, purugganan2009nature}.  These systems therefore represent compelling opportunities for investigating the genetic architecture of local adaptation.  Moreover, insights gained regarding adaptive loci can feed back into modern crop improvement, yielding valuable benefits in the face of rapid environmental change.
 
 {\bf Here we propose to use maize adaptation (\emph{Zea mays} ssp. \emph{mays}) to high elevation environments as a model for understanding the genetic basis of local adaptation in plants}.  Maize was domesticated in the lowlands of southwest Mexico from the narrowly distributed teosinte \emph{Zea mays} ssp. \emph{parviglumis} \citep[hereafter, \emph{parviglumis};][]{Matsuoka2002}. Since domestication, maize has spread worldwide: analysis of cultivation area data indicates maize has the greatest global geographic breadth of 16 staple crops (Figure \ref{fig:breadth}) and is now cultivated on six continents, ranging from southern Chile to Canada and from sea level to well over 3000m in altitude \citep{tenaillon2011european}. Maize has adapted to high elevation in several isolated geographic regions.  Moreover, the subspecies of teosinte \emph{Zea mays} ssp. \emph{mexicana} (hereafter, \emph{mexicana}) is found only in highland environments, having adapted to highland environments thousands of years prior to maize domestication \citep{Ross-Ibarra2009a, hufford2012inferences}. Maize and teosinte thus form an ideal system in which multiple replicated evolutionary experiments will allow us to dissect the genetic architecture of highland adaptation as a model for understanding plant local adaptation.
 
-\begin{SCfigure}[][h]
+\begin{SCfigure}[]h
   \centering
   \caption{Geographic breadth of the world's 16 staple crops, expressed in percent of land surface area in which each crop is cultivated. Data are from \citet{monfreda2008farming}. } 
    \includegraphics[width=0.5\textwidth]{breadth.png}
@@ -44,7 +44,7 @@ Agricultural species represent promising systems for ongoing research on local a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Aims}
 
-We will investigate the genetic basis of highland adaptation in maize by achieving three aims:
+We will investigate the genetic basis of highland adaptation in maize by achieving three aims. Table \ref{tab:timeline} shows the proposed timing of each aim and which CoPIs will be responsible.
 
 \begin{enumerate}
 \item {\bf Dissect the genetic architecture of highland traits}
@@ -52,12 +52,33 @@ We will investigate the genetic basis of highland adaptation in maize by achievi
 \item {\bf Characterize functional variation at adaptive quantitative trait loci}
 \end{enumerate}
 
+\rowcolors{2}{gray!25}{white}
+\begin{table}[]
+\label{tab:timeline}
+\begin{center}
+\begin{tabular}{p{3.5cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}}\\\toprule  
+    \rowcolor{gray!50}
+Year & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
+\ref{subsec:qtlmap} \hspace{3cm} QTL mapping 			& SFG, MBH, RS, JRI 	& SFG, MBH, RS 	& SFG, MBH, RS, JRI 	& -- 			& -- \\\midrule
+\ref{subsec:admixmap} \hspace{3cm} Admix mapping		& MBH 				& MBH, GC 		& MBH, GC 			& -- 			& -- \\\midrule
+\ref{sec:popgen} \hspace{3cm} Population genetics		& JRI, MBH, GC 		& JRI, MBH, GC  	& JRI, MBH, GC		& JRI, GC 	& -- \\\midrule
+\ref{subsec:nils} \hspace{2cm} Functional \mbox{analyses} 		& RS 				& RS, SFG		& RS, SFG 			& RS, SFG 	& RS, SFG  \\\midrule
+\ref{subsec:rnaseq} \hspace{2cm} RNA-seq 				& --  					& --  				& JRI, ACJ  			& JRI, ACJ	& JRI, ACJ \\\bottomrule
+\end{tabular}
+\caption{Proposed timeline of activities, showing which CoPI or Sr. Personnel will be responsible for each objective. }\label{tab:timeline}
+\end{center}
+\end{table} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %RATIONALE AND SIGNIFICANCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Rationale and Significance}
 
+<<<<<<< HEAD
 While the genetic basis of local adaptation is generally not well understood, the declining cost of genotyping has enabled a handful of genome-wide studies across populations of model species.  For example, \citet{fournier2011map} demonstrated that alleles associated with high fitness in \emph{Arabidopsis thaliana} have a tendency to be both local and linked to climate.  Likewise, a recent study across hundreds of accessions of \emph{Medicago truncatula} identified candidate loci for local adaptation and found them to be predictive of growth rate under temperature and soil moisture treatments \citep{Yoder17012014}.  Finally, our own genome-wide study of teosinte revealed  an important role for inversion polymorphisms and -- in contrast to results from \emph{Arabidopsis} \citep{hancock2011adaptation} -- an enrichment of regulatory variants among loci showing evidence of selection \citep{Pyhajarvi2013}. While much of local adaptation may involve complex quantitative traits \citep{le2012genetic}, the genetic architecture of these traits does not necessarily mirror results from mapping studies in other populations. In maize, for example, although genome-wide association in the NAM panel suggests that flowering time is largely controlled by many loci of small effect \citep{buckler2009genetic}, adaptive change in flowering time across latitudes has involved loci of large effect on photoperiod \citep{hung2012zmcct}. The strength and timing of selection on a trait also plays a role: while ear and tassel traits in maize share a number of QTL, those underlying ear morphology, which underwent recent strong selection during domestication, are of larger mean effect size \citep{Brown2011b}. Though initial genomic studies are beginning to yield valuable insights regarding local adaptation, clearly much remains to be discovered.  
+=======
+While the genetic basis of local adaptation is generally not well understood, the declining cost of genotyping has enabled a handful of genome-wide studies across populations of model species.  For example, \citet{fournier2011map} demonstrated that alleles associated with high fitness in \emph{Arabidopsis thaliana} have a tendency to be both local and linked to climate.  Likewise, a recent study across hundreds of accessions of \emph{Medicago truncatula} identified candidate loci for local adaptation and found them to be predictive of growth rate under temperature and soil moisture treatments \citep{Yoder17012014}.  Finally, our own genome-wide study of teosinte (the wild relatives of maize) revealed  an important role for inversion polymorphisms and -- in contrast to results from \emph{Arabidopsis} \citep{hancock2011adaptation} -- an enrichment of regulatory variants among loci showing evidence of selection \citep{Pyhajarvi2013}. While much of local adaptation may involve complex quantitative traits \citep{le2012genetic}, the genes important for local adaptation are not necessarily those identified in mapping studies in other populations. In maize, for example, although genome-wide association in the NAM panel suggests that flowering time is largely controlled by many loci of small effect \citep{buckler2009genetic}, adaptive change in flowering time across latitudes has involved loci of large effect on photoperiod \citep{hung2012zmcct}. Traits under selection may also show distinctive patterns of effect size -- while several QTL have been shown to be pleiotropic for both ear and tassel traits, the effect sizes of these QTL on ear morphology, which underwent recent strong selection during domestication, are larger than their effect on the tassel \citep{Brown2011b}. Though initial genomic studies are beginning to yield valuable insights regarding local adaptation, clearly much remains to be discovered.  
+>>>>>>> 266bb30702f489ef812f824e8cbe9aa68b2cc9ec
 
 Maize and teosinte are an excellent system in which to study local, specifically highland, adaptation.  Following domestication, maize spread to the highlands of the Mexican Central Plateau, a migration across more than 1000m of increasing elevation.  Colonization of the highlands required adaptation to a number of novel abiotic conditions, including gradients of temperature, precipitation, and elevation. Highland landraces have distinct morphologies (e.g., highly pigmented and hairy leaves and stems) that are believed to confer adaptation to this cooler region \citep{Doebley1984a}.  Our previous genetic analyses \citep{vanheerwaarden2011a} show that maize has independently adapted to highland environments multiple times, including the southwest US and the Andes of South America, where landraces (i.e., local farmer varieties) are commonly grown above 3000m. Multiple independent instances of highland adaptation in maize and teosinte provide replicated evolutionary experiments, providing power to identify and validate both widespread and population-specific candidate loci for highland adaptation.
 
@@ -73,7 +94,7 @@ Finally, study of the genetic architecture of maize adaptation will provide both
 %PRELIMINARY RESULTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Preliminary Results}
-Preliminary work from project members positions us to make excellent progress on our proposed aims. Co-PIs Ross-Ibarra and Hufford have worked extensively on the population genetics of highland adaptation.    \citet{Pyhajarvi2013} explored local adaptation in \emph{parviglumis} and \emph{mexicana} populations, finding a large number of loci showing association with altitude and evidence of selection, as well as highlighting the potential importance of regulatory variants and large inversion polymorphisms. This study identified a putatively adaptive inversion on chromosome four that distinguishes the lowland \emph{parviglumis} from the highland \emph{mexicana} and coincides with a quantitative trait locus associated with  traits  linked to highland adaptation \citep{Lauter2004a}. This \emph{Inv4m} inversion is the subject of our functional characterization in \ref{sec:funchar}.  \citet{Pyhajarvi2013} also identified populations of \emph{parviglumis} showing extensive admixture with the highland \emph{mexicana} which are the subject of proposed analysis in \ref{subsec:admixmap,sec:admixpopgen}. \citet{Hufford2013} identified genomic regions in highland maize that have introgressed from the highland  \emph{mexicana}.  They showed that  plants with \emph{mexicana} alleles showed highland phenotypes and superior growth under cold conditions, suggesting an adaptive role for introgression and motivating our population genetic analyses in \ref{sec:selection}.  Finally, recent analyses of selection in genotyping data from a wide collection of landraces from the highlands of Mexico and S. America finds little overlap in the genes important for adaptation (Takuno \emph{et al.} In Prep; Figure \ref{fig:fst}), motivating the QTL analysis in \ref{sec:qtlmap}.
+Preliminary work from project members positions us to make excellent progress on our proposed aims. Co-PIs Ross-Ibarra and Hufford have worked extensively on the population genetics of highland adaptation.    \citet{Pyhajarvi2013} explored local adaptation in \emph{parviglumis} and \emph{mexicana} populations, finding a large number of loci showing association with altitude and evidence of selection, as well as highlighting the potential importance of regulatory variants and large inversion polymorphisms. This study identified a putatively adaptive inversion on chromosome four that distinguishes the lowland \emph{parviglumis} from the highland \emph{mexicana} and coincides with a quantitative trait locus associated with  traits  linked to highland adaptation \citep{Lauter2004a}. This \emph{Inv4m} inversion is the subject of our functional characterization in \ref{sec:funchar}.  \citet{Pyhajarvi2013} also identified populations of \emph{parviglumis} showing extensive admixture with the highland \emph{mexicana} which are the subject of proposed analysis in \ref{subsec:admixmap,sec:popgen}. \citet{Hufford2013} identified genomic regions in highland maize that have introgressed from the highland  \emph{mexicana}.  They showed that  plants with \emph{mexicana} alleles showed highland phenotypes and superior growth under cold conditions, suggesting an adaptive role for introgression and motivating our population genetic analyses in \ref{sec:popgen}.  Finally, recent analyses of selection in genotyping data from a wide collection of landraces from the highlands of Mexico and S. America finds little overlap in the genes important for adaptation (Takuno \emph{et al.} In Prep; Figure \ref{fig:fst}), motivating the QTL analysis in \ref{sec:qtlmap}.
 
 \begin{SCfigure}[][t]
   \centering \label{fig:fst}
@@ -84,7 +105,6 @@ Preliminary work from project members positions us to make excellent progress on
 Co-Pi Flint-Garcia and Sr. Personnel Sawers have made important progress on the development of populations for the project. For \ref{subsec:qtlmap} our Mexican  cross is already at the F2 generation, and one potential S. American cross is now at the F1 generation  (Table \ref{tab:qtlpops}).  Back-crosses of the reference genome inbred B73 to a highland Mexican landrace Palomero Toloque\~no have been made and selfed to generate a BC1S1 population that will be further developed in \ref{subsec:nils} to dissect the function of the \emph{Inv4m} polymorphism. Both SSRs and SNPs that distinguish the  \emph{mexicana} alleles at \emph{Inv4m} have also been developed.
 
 Co-PI Coop has worked to develop analytical approaches to understanding local adaptation, including methods that allow genome-wide association with environmental variables \citep{Coop2010, gunther2013robust}, detection of selection in introgressed populations \citep{Brandvain2013}, and powerful approaches to identify phenotypic selection on quantitative traits \cite{Berg2013}.  His group is currently working on methods for mapping and studying adaptation in admixed populations.
-%!HELP add Torsten's citation
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %SPECIFIC OBJECTIVES
@@ -98,7 +118,7 @@ Co-PI Coop has worked to develop analytical approaches to understanding local ad
 \renewcommand{\thesection}{Aim \arabic{section}}
 \section{Genetic architecture of highland traits} \label{sec:qtl}
 
-One of the primary goals of this proposal is to determine the genetic architecture of highland adaptation. Ultimately, this knowledge will be useful for determining the genes underlying these loci (\ref{sec:funchar}) and the pathways involved in adaptation (\ref{sec:selection}). These loci can also be used in maize improvement via marker assisted selection. In this aim we wish to determine how many genomic regions control adaptive phenotypes, where these regions are located, and the distribution of allelic effects at these loci. We first perform comparative QTL analysis in two highland x lowland crosses (\ref{subsec:qtlmap}), then take advantage of historical recombination and greater resolution to map loci in an admixed population of highland and lowland teosinte (\ref{subsec:admixmap}).
+One of the primary goals of this proposal is to determine the genetic architecture of highland adaptation. Ultimately, this knowledge will be useful for determining the genes underlying these loci (\ref{sec:funchar}) and the pathways involved in adaptation (\ref{sec:popgen}). These loci can also be used in maize improvement via marker assisted selection. In this aim we wish to determine how many genomic regions control adaptive phenotypes, where these regions are located, and the distribution of allelic effects at these loci. We first perform comparative QTL analysis in two highland x lowland crosses (\ref{subsec:qtlmap}), then take advantage of historical recombination and greater resolution to map loci in an admixed population of highland and lowland teosinte (\ref{subsec:admixmap}).
 
 \subsection*{Questions}
 \begin{itemize}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
@@ -186,17 +206,14 @@ The expected outcomes of this objective will be 1) A map of QTL underlying pheno
 \subsection{Admixture mapping in a teosinte hybrid zone} \label{subsec:admixmap}
 While \emph{mexicana} and \emph{parviglumis} are largely allopatric, the subspecies overlap in two regions of Mexico, eastern Jalisco state and the eastern Balsas River Basin \citep{hufford2012inferences}, and a number of hybrid populations have been documented in these regions \citep{Fukunaga2005}.  We have previously documented near equal proportions of ancestry from the two subspecies   admixture in one of these populations near the town of Ahuacatitlan in the eastern Balsas \citep{Pyhajarvi2013}.  Growth chamber experiments also suggest plants in this population have higher fitness in cold conditions than other \emph{parviglumis} populations.  Moreover, the relatively short length of  haplotypes Ahuacatitlan shares with other  populations suggests that there has been extensive recombination since the initial admixture event, providing an ideal population for high-resolution admixture mapping of \emph{mexicana} highland adaptation traits.
 
-In November of year one of the project we will travel to Ahuacatitlan and collect seed from 500 individuals drawn randomly from the population.  Seed samples will be transported to Langebio in Irapuato, Mexico for cold storage. A single seed per individual (500 total) will be germinated on filter paper and transplanted into our two Mexican field sites (Table \ref{tab:locales}).  Phenotypes detailed in Figure \ref{fig:phenos} will be collected for admixture mapping.  The majority of these traits are known to differ considerably between \emph{parviglumis} and \emph{mexicana} (CITE).  Leaflet samples will be collected from plants in the field at the seven-leaf stage, and extracted DNA will be genotyped using GBS.  Several computational methods for admixture mapping have already been developed (  \citet{winkler2010admixture}), but we will augment these with methods currently under development by Co-PI Coop.  
+In November of year one of the project we will travel to Ahuacatitlan and collect seed from 500 individuals drawn randomly from the population.  Seed samples will be transported to Langebio in Irapuato, Mexico for cold storage. A single seed per individual (500 total) will be germinated on filter paper and transplanted into our two Mexican field sites (Table \ref{tab:locales}).  Phenotypes detailed in Figure \ref{fig:phenos} will be collected for admixture mapping.  Many of these traits are known to differ considerably between \emph{parviglumis} and \emph{mexicana} \citep{wilkes1967teosinte}.  Leaflet samples will be collected from plants in the field at the seven-leaf stage, and extracted DNA will be genotyped using GBS.  Several computational methods for admixture mapping have already been developed \citep{winkler2010admixture}, but we will augment these with methods currently under development by Co-PI Coop.  
 
 However, these methods are not well suited to admixture mapping when there are differentially related individuals in the sample, and when natural selection may have systematically distorted admixture at some loci. In natural admixed populations these issues can be expected to occur, and will potentially result in false positives due to the non-independence of individuals (a fact accounted for in plant GWAS, but not in admixture mapping). We will implement novel methods currently under development by Co-PI Coop in our analysis of the Ahuacatitlan population that incorporate this non-independence into admixture association tests, while accounting for uncertainly in admixture calls along the genome. 
-
- %!HELP: writing & citation for parv/mex traits.
-% CITE Lauter thesis?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Adaptive value of highland alleles} \label{sec:selection}
+\section{Adaptive value of highland alleles} \label{sec:popgen}
 
 In aim \ref{sec:qtl} we will map loci corresponding to traits differing between highland and lowland maize and teosinte. In this section we will test the adaptive significance of these QTL in three sets of populations: a worldwide sampling of highland maize, admixed maize populations from Mexico, and admixed populations of \emph{mexicana} and \emph{parvgilumis}. 
 
@@ -206,22 +223,6 @@ In aim \ref{sec:qtl} we will map loci corresponding to traits differing between 
 \item Are loci controlling phenotypic differences between highland and lowland populations adaptive?
 \item Does natural selection favor introgression from adapted populations?
 \end{itemize}
-
-\subsection{Analyses}
-Samples from all populations will be genotyped using GBS.  Teosinte populations will be genotyped at higher coverage (48 plex) than normal to decrease genotype error at heterozygous sites.
-
-And though quantitative genetic theory suggests that adaptive phenotypic change may not correlate with strong evidence for selection on individual loci \citep{le2012genetic}, recently developed methods from Co-PI Coop \citep{Berg2013} provide a powerful statistical framework to identify coordinated shifts in allele frequencies at causative QTL (from \ref{sec:qtl} to look for weak selection on alleles underlying highly quantitative traits.  
-These data will provide \textasciitilde 1M SNPs across the genome (compared to 40K SNPs in \citet{Hufford2013}). We will use both haplotype \citep{price2009sensitive} and heterozygosity-based \citep{Geneva2014} methods to identify introgressed segments in individual populations.  Genomic regions showing evidence of introgression will be tested for selection using population genetic approaches which utilize evidence from the site frequency spectrum \citep{nielsen2005genomic} and haplotype structure \citep{voight2006map}.  
-Finally, we will again apply the approach of \citet{Berg2013} to evaluate selection on individual phenotypes across highland maize landrace populations.
-Signatures of repeated evolution are indicative of standing genetic variation or multiple pathways (a larger mutational target) to achieve a similar phenotypic outcome \citep{Ralph2010a}.
- Replicated admix populations, combined with the high resolution afforded by recombination in teosinte, will allow us to  (repeated evolution) across all populations.   Finally, the large sample sizes used will also allow us to identify coordinated shifts in allele frequencies \citet{Berg2013} of even rare QTL identified in \ref{subsec:admixpop}.
-%! CLEAN UP
-\begin{SCfigure}
-  \centering
-  \caption{Analysis of 100 generations of simulated admixture between \emph{mexicana} and \emph{parviglumis} across a 100cM chromosome.   A  beneficial \emph{mexicana} allele with selection strength $s=0.1$ is introgressed at position 10cM (red vertical line), showing that  deviation from background variation in ancestry (horizontal gray line) can be used to detect selection in admixed populations. } 
-   \includegraphics[width=0.4\textwidth]{admix.png}
-\label{fig:yaniv}
-\end{SCfigure}
 
 \subsection{Populations}
 
@@ -234,15 +235,24 @@ We will assemble a panel of 500 global highland maize accessions from the public
 \paragraph{Admixed teosinte populations}
 Here, we will complement the Ahuacatitlan population from \ref{subsec:admixmap} by sampling four additional admixed populations that have been identified using small-scale SNP data from across the range of each taxon \citep{vanheerwaarden2011a}.  We will revisit each of these populations to sample seed, collecting 50 individuals per population. Because these admixture events appear to be ancient \citep{Pyhajarvi2013}, replicate populations should provide high resolution to assess parallel evolution and phenotypic selection.  As these populations are at the extreme high elevational range of \emph{parviglumis}, we predict we will see evidence of adaptive introgression from \emph{mexicana} as well as potentially selection against hybrid individuals. Population genetic theory predicts that adaptive loci which have introgressed due to natural selection should show distinct signals of elevated admixture, and our preliminary simulation results bear our this prediction (Figure \ref{fig:yaniv}). 
 
-{\bf Expected outcomes:}  of this objective will be 1) identification of adaptive loci in multiple admixed teosinte populations 2) comparison of selection on phenotypic traits in teosinte vs. maize 3) an improved understanding of the role of repeated evolution during the process of local adaptation  1) a fine-scale dissection of both ancient and ongoing introgression 2) identification of introgressed regions showing evidence of positive selection, identifying loci important for highland adaptation,  3) evidence for selection on specific phenotypic traits, 4) quantification of the potential "linkage drag" or evidence against introgression across other regions of the genome.
-%! CLEAN UP
+\subsection{Analyses}
+Samples from all populations will be genotyped using GBS.  Teosinte populations will be genotyped at higher coverage (48 plex) to decrease genotype error at heterozygous sites. In each population we will apply population genetic approaches which utilize evidence from the site frequency spectrum \citep{nielsen2005genomic} and haplotype structure \citep{voight2006map} to identify loci under selection.  In teosinte populations we will use both haplotype \citep{price2009sensitive} and heterozygosity-based \citep{Geneva2014} methods to identify introgressed segments in individual populations.  Loci showing evidence of introgression and selection will be compared with those underlying QTL in maize and teosinte populations from \ref{sec:qtl}.  Quantitative genetic theory suggest, however, that adaptive phenotypic change can frequently occur without strong selection on individual loci \citep{le2012genetic}.  To search for evidence of selection on adaptive phenotypes, we will employ recently developed methods from Co-PI Coop \citep{Berg2013} that provide a powerful statistical framework to identify coordinated shifts in allele frequencies at causative QTL (from \ref{subsec:qtlmap,subsec:admixmap} to look for weak selection on alleles underlying highly quantitative traits. These methods will allow us to specifically ask which phenotypes show evidence of selection in individual populations.  Comparison among populations of maize and teosinte will highlight patterns of repeated evolution, indicative of the possibility that standing genetic variation or multiple pathways (a larger mutational target) can be utilized by plants to achieve similar phenotypic outcome \citep{Ralph2010a}.
+
+\begin{SCfigure}
+  \centering
+  \caption{Analysis of 100 generations of simulated admixture between \emph{mexicana} and \emph{parviglumis} across a 100cM chromosome.   A  beneficial \emph{mexicana} allele with selection strength $s=0.1$ is introgressed at position 10cM (red vertical line), showing that  deviation from background variation in ancestry (horizontal gray line) can be used to detect selection in admixed populations. } 
+   \includegraphics[width=0.4\textwidth]{admix.png}
+\label{fig:yaniv}
+\end{SCfigure}
+
+{\bf Expected outcomes:}  of this objective will be 1) identification of adaptive loci in teosinte and cultivated maize populations 2) evidence for repeated evolution and comparisons of genetic architecture of adaptation 3) evidence for selection on individual phenotypic traits, 4) quantification of the potential "linkage drag" or evidence against introgression across other regions of the genome.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Functional characterization of adaptive QTL} \label{sec:funchar}
 
-After mapping QTL for highland adaptation (\ref{sec:qtl}) and studying their adaptive significance (\ref{sec:selection}), in this aim we will begin to investigate the functional genetic basis of adaptive regions.  We will first study the phenotypic effects of alleles at \emph{Inv4m}, an inversion corresponding to a chromosome 4 QTL that has introgressed into highland maize  (\ref{subsec:nils}).  Then we will use RNA sequencing data to find differences in expression, plasticity, and identify potential candidate loci within QTL (\ref{subsec:rnaseq}).
+After mapping QTL for highland adaptation (\ref{sec:qtl}) and studying their adaptive significance (\ref{sec:popgen}), in this aim we will begin to investigate the functional genetic basis of adaptive regions.  We will first study the phenotypic effects of alleles at \emph{Inv4m}, an inversion corresponding to a chromosome 4 QTL that has introgressed into highland maize  (\ref{subsec:nils}).  Then we will use RNA sequencing data to find differences in expression, plasticity, and identify potential candidate loci within QTL (\ref{subsec:rnaseq}).
 
 \subsection{Questions}
 \begin{itemize}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
@@ -270,27 +280,11 @@ While the probable lack of recombination between haplotypes of \emph{Inv4m} \cit
 
 \subsection{Gene expression} \label{subsec:rnaseq}
 
-In this objective we will use RNA sequencing to evaluate expression differences among lines, across environments, and among loci.  We will first grow the 8 inbred lines which serve as parents of our allelic series analysis in \ref{subsec:nils} in our highland and lowland field site Table \ref{tab:locales}  to identify genes responsive to these environments.  From each inbred we will sample leaf and root tissue from three plants at each of two time stages (seedling and flowering adult). Tissue will be flash frozen and sent to UC Davis for extraction and sequencing (multiplexed 12 individuals per lane of an Illumina HiSeq 2500) at the UC Davis Genome Center. Each individual will be barcoded, providing 3 biological replicates for each tissue/time/environment combination. We will use edgeR \citep{robinson2010edger} to assess differences in expression across environments.  We will then compare  differentially expressed (DE) genes to QTL from \ref{sec:qtl}, loci showing selection identified in \ref{sec:selection}, and introgressed regions showing phenotypic differences in \ref{subsec:nils}.   These results will help narrow down potential candidate genes in QTL and serve as functional validation of loci showing population genetic evidence of selection.  The data will also allow investigation of the relationship between phenotypic plasticity and adaptive change \citep[c.f.][]{Rosas26082013} via comparison of DE genes among environments for a single inbred to differences in DE genes among inbreds.  
+In this objective we will use RNA sequencing to evaluate expression differences among lines, across environments, and among loci.  We will first grow the 8 inbred lines which serve as parents of our allelic series analysis in \ref{subsec:nils} in our highland and lowland field site Table \ref{tab:locales}  to identify genes responsive to these environments.  From each inbred we will sample leaf and root tissue from three plants at each of two time stages (seedling and flowering adult). Tissue will be flash frozen and sent to UC Davis for extraction and sequencing (multiplexed 12 individuals per lane of an Illumina HiSeq 2500) at the UC Davis Genome Center. Each individual will be barcoded, providing 3 biological replicates for each tissue/time/environment combination. We will use edgeR \citep{robinson2010edger} to assess differences in expression across environments.  We will then compare  differentially expressed (DE) genes to QTL from \ref{sec:qtl}, loci showing selection identified in \ref{sec:popgen}, and introgressed regions showing phenotypic differences in \ref{subsec:nils}.   These results will help narrow down potential candidate genes in QTL and serve as functional validation of loci showing population genetic evidence of selection.  The data will also allow investigation of the relationship between phenotypic plasticity and adaptive change \citep[c.f.][]{Rosas26082013} via comparison of DE genes among environments for a single inbred to differences in DE genes among inbreds.  
 
 Our second approach will be a targeted analysis of transcriptomic changes in the \emph{Inv4m} NIL lines from \ref{subsec:nils}.  Using NILs generated from each of the same 7 inbred donors (alongside an additional replicate of B73), we will evaluate shoot tissues of three plants sampled at seedling and flowering stage for each of the two genotypes (homozygous B73, homozygous donor).  Samples will be extracted and sequenced as described above. These analyses will allow us to refine potential candidate loci within introgressed segments of our NILs, moving us closer to a functional characterization of observed phenotypic differences. Whole-transcriptome comparison of the NILs to the donor lines will also permit differentiation between cis and trans regulation of expression within the \emph{Inv4m}  region, and analysis of co-expression networks \citep[c.f.][]{Swanson-Wagner02072012} will highlight the effects of introgressed genes on expression patterns in the rest of the genome, enabling us to begin to dissect the genetic pathways involved in adaptive highland traits.
 
 {\bf Expected outcomes:} 1) Identification of candidate genes showing plastic differential expression within lines across environments 2) Identification of candidate genes showing differential expression among lines from different environments 3) Detailed information on the effects of introgressed segments on genome-wide expression. 
-
-%\rowcolors{2}{gray!25}{white}
-%\begin{table}[]
-%\begin{center}
-%\caption{Proposed timeline of activities, showing which CoPI or Sr. Personnel will be responsible for each objective. }\label{tab:timeline}
-%\begin{tabular}{lccccc}\\\toprule  
-%    \rowcolor{gray!50}
-%Year & 2015 & 2016 & 2017 & 2018 & 2019 \\\midrule
-%\ref{subsec:qtlmap} QTL mapping 			& SFG,MBH,RS,JRI 	& SFG,MBH,RS 	& SFG,MBH,RS,JRI 	& -- 			& -- \\\midrule
-%\ref{subsec:admixmap} Admix mapping 		& MBH 				& MBH,GC 		& MBH,GC 			& -- 			& -- \\\midrule
-%\ref{sec:popgen} Population genetics 		& JRI,MBH,GC 		& JRI,MBH,GC  	& JRI,MBH,GC		& JRI,GC 	& -- \\\midrule
-%\ref{subsec:nils} Functional analyses 		& RS 				& RS,SFG		& RS,SFG 			& RS,SFG 	& RS,SFG  \\\midrule
-%\ref{subsec:rnaseq} RNA-seq 				& --  					& --  				& JRI,ACJ  			& JRI,ACJ	& JRI,ACJ \\\bottomrule
-%\end{tabular}
-%\end{center}
-%\end{table} 
 
 \required{Broader Impacts}
 % As in the project summary, broader impacts must be called out separately 
