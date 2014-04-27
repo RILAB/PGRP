@@ -35,7 +35,7 @@ Agricultural species represent promising systems for ongoing research on local a
 \begin{SCfigure}[]
   \centering
   \caption{Geographic breadth of the world's 16 staple crops, expressed in percent of land surface area in which each crop is cultivated. Data are from \citet{monfreda2008farming}. } 
-   \includegraphics[width=0.5\textwidth]{breadth.png}
+   \includegraphics[width=0.5\textwidth]{breadth.pdf}
 \label{fig:breadth}
 \end{SCfigure}
 
@@ -147,13 +147,13 @@ Populations will be phenotyped at three field locations, including one lowland s
 \begin{table}[]
 \rowcolors{2}{gray!25}{white}
 \begin{center}
-\caption{Common garden locations} \label{tab:locales}
 \begin{tabular}{p{2cm}cccccc}\\\toprule  
 {\bf Field Sites} & {\bf Lat/Lon } & {\bf Elevation\,(m) } &	{\bf Min/Mean/Max\,$^{\circ}\mathrm{C}$  } & {\bf Precip\,(mm) } \\ \toprule
 Valle de Banderas, Nayarit	& 20.8,\,-105.2&	54		&	15.3/25.8/33.7	&	1184 \\
 Irapuato, Guanajuato 	&	20.7,\,-101.3	&	1729.0	&	7.3/20.2/31.7	&	693 \\
 Amealco, Quer\'etaro 	&	19.5,\,-99.1	&	2240.0 	&	2.3/15.6/27.0	&	626\\
 Columbia, Missouri		& 	28.9,\,-92.2	&	266.1 	&	-17.8/36.0/40.5&	914\\ \bottomrule
+\caption{Common garden locations} \label{tab:locales}
 \end{tabular}
 \end{center}
 \end{table} 
@@ -161,11 +161,11 @@ Columbia, Missouri		& 	28.9,\,-92.2	&	266.1 	&	-17.8/36.0/40.5&	914\\ \bottomrul
 At each site, the experiment will consist of two replicates in which the 500 entries  will be arranged in an augmented alpha lattice design.  Parental checks will be included to control for field variation.  We will collect a  number of phenotypes (Figure \ref{fig:phenos}) using our in-house, barcode-based data collection program. Germination assays  in controlled conditions will be conducted in Ames, Iowa, and root chilling will be evaluated using a custom hydroponic system at the University of California, Davis (see letter of support from Dr. Arnold Bloom).    
 
 \begin{figure}[ht!]
-	\begin{minipage}{0.5\textwidth}
+	\begin{minipage}{0.6\textwidth}
     		\centering
    		\includegraphics[width=\textwidth]{fourtraits.pdf}
   	\end{minipage}%
-  	\begin{minipage}[c]{0.50\textwidth}
+  	\begin{minipage}[c]{0.40\textwidth}
   		\centering
 		\rowcolors{2}{gray!25}{white}
 		\begin{tabular}{llcc}\\\toprule  
@@ -202,12 +202,13 @@ While \emph{mexicana} and \emph{parviglumis} are largely allopatric, the ecologi
 
 In November of year one of the project Dr. Hufford's group will travel to Ahuacatitlan and collect seed from 500 individuals drawn randomly from the population.  Seed samples will be transported to Langebio in Irapuato, Mexico for cold storage. A single seed per individual (500 total) will be germinated on filter paper and transplanted into our two Mexican field sites (Table \ref{tab:locales}).  Phenotypes detailed in Figure \ref{fig:phenos} will be collected for admixture mapping.  Many of these traits are known to differ considerably between \emph{parviglumis} and \emph{mexicana} \citep{wilkes1967teosinte}.  Leaflet samples will be collected from plants in the field at the seven-leaf stage, and extracted DNA will be genotyped using GBS.  Several computational methods for admixture mapping have already been developed \citep{winkler2010admixture}, but we will augment these with methods currently under development by Dr. Coop. Current methods are not well suited to admixture mapping when there are differentially related individuals in the sample, and when natural selection may have systematically distorted admixture at some loci. In natural admixed populations these issues can be expected to occur, and will potentially result in false positives due to the non-independence of individuals (a fact accounted for in plant genome-wide association studies but not in admixture mapping). We will implement novel methods currently under development by Dr. Coop in our analysis of the Ahuacatitlan population that incorporate this non-independence into admixture association tests, while accounting for uncertainly in admixture calls along the genome. 
 
+{\bf Expected outcomes:} 1) A map of QTL underlying phenotypic differences between highland and lowland teosinte, detailing the effect size of each QTL, and 2) Estimates of fitness differences (PH, BM, SM, and FK (Figure 3)) in highland and lowland sites.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %AIM 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Adaptive value of highland alleles} \label{sec:popgen}
 
-In aim \ref{sec:qtl} we will map loci corresponding to traits differing between highland and lowland maize and teosinte. In this section we will test the adaptive significance of these QTL in three sets of populations: a worldwide sampling of highland maize, admixed maize populations from Mexico, and admixed populations of \emph{mexicana} and \emph{parvgilumis}. 
+In \ref{sec:qtl} we will map loci corresponding to traits differing between highland and lowland maize and teosinte. In this section we will test the adaptive significance of these QTL in three sets of populations: a worldwide sampling of highland maize, admixed maize populations from Mexico, and admixed populations of \emph{mexicana} and \emph{parvgilumis}. 
 
 \subsection*{Questions}
 \begin{itemize}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
@@ -216,7 +217,7 @@ In aim \ref{sec:qtl} we will map loci corresponding to traits differing between 
 \item Does natural selection favor introgression from adapted populations?
 \end{itemize}
 
-\subsection{Populations}
+\subsection{Develop Populations}
 
 \paragraph{Global highland maize} 
 We will assemble a panel of 500 global highland maize accessions from the public repositories of USDA-ARS and CIMMYT.  Our panel will include accessions from highland regions in Guatemala, Central America, the southwestern United States, Ethiopia and other parts of East Africa, and South and East Asia \citep{bjarnason1994subtropical}. This population allows us to test for similarities in the genetic architecture and adaptation to highland environments more broadly across all maize.  This population will also highlight the diversity of highland adaptation alleles that can be drawn upon during maize breeding.  Data from this worldwide sampling will be augmented by whole-genome-sequencing currently underway in the Hufford and Ross-Ibarra lab of a small set of highland maize lines from Guatemala and the Southwest U.S.
@@ -281,13 +282,13 @@ Our second approach will be a targeted analysis of transcriptomic changes in the
 
 \required{Broader Impacts}
 
-Our proposal seeks to broaden educational opportunities for students and other academics through and exchange program and phenotyping workshop.  In addition to normal means of research dissemination (publications, conferences), we will also proactively distribute code for teaching and research.  Finally, the germplasm created as part of this proposal will likely be of use for other researchers and breeding programs.
+Our proposal seeks to broaden educational opportunities for students and other academics through an exchange program and phenotyping workshop.  In addition to normal means of research dissemination (publications, conferences), we will also proactively distribute code for teaching and research.  Finally, the germplasm created as part of this proposal will likely be of use for other researchers and breeding programs.
 
 \subsection*{Exchange Program} 
 
-We propose an international student exchange program between our teams in the US and Mexico. Over the course of the grant, we propose to fund 10 graduate or undergraduate students for 3-month research internships in one of the collaborating laboratories. Students involved will participate in research projects directly relating to the research focus of the grant, including developing mapping populations, mapping traits, population genetic analysis, or analysis of next-generation data. The expectation is that such research will often lead to co-authorship on publications. Students will be asked to give two presentations, one to the host lab upon arrival, talking about the lab/university they came from and research there, and another to their host lab detailing their work over the 3-month period.  Each of the PIs will participate, sending students to Mexico and/or accepting students from Mexico for internships. PI Ross-Ibarra will manage the program, as he is fluent in Spanish and has past experience with a similar exchange program (NSF 0922703). Over the last four years, his lab has hosted 6 Mexican students who have worked on various computational aspects of centromere evolution. Two of those students have earned authorship on a paper to be submitted later this year and one has gone on to a PhD program in the U.S.
+We propose an international student exchange program between our teams in the US and Mexico. Over the course of the grant, we propose to fund 10 graduate or undergraduate students for 3-month research internships in one of the collaborating laboratories. Students involved will participate in research projects directly relating to the research focus of the grant, including developing mapping populations, mapping traits, population genetic analysis, or analysis of next-generation data. The expectation is that such research will often lead to co-authorship on publications. Students will be asked to give two presentations, one to the host lab upon arrival, talking about the lab/university they came from and research there, and another to their host lab detailing their work over the 3-month period.  Each of the team members will participate, sending students to Mexico and/or accepting students from Mexico for internships. Dr. Ross-Ibarra will manage the program, as he is fluent in Spanish and has past experience with a similar exchange program (NSF 0922703). Over the last four years, his lab has hosted 6 Mexican students who have worked on various computational aspects of centromere evolution. Two of those students have earned authorship on a paper to be submitted later this year and one has gone on to a PhD program in the U.S.
 
-Our goal is to involve students directly in research while at the same time fostering intercultural exchange and promoting future international research opportunities. It is particularly appropriate for the study of maize, a crop with significant cultural and economic impact in both Mexico and the U.S. Participating Mexican students will learn new analytical methods -- especially computational management of large datasets -- that can be introduced to their respective laboratories and peers. American exchange students will similarly benefit from experience with large field experiments and efforts to functionally characterize individual loci.  The hope is that Mexican undergraduate students involved may be recruited to graduate programs in the U.S., ideally to work in the lab of one of the PIs, and that American undergraduate students will be exposed to international opportunities for research, graduate education, and collaboration.
+Our goal is to involve students directly in research while at the same time fostering intercultural exchange and promoting future international research opportunities. It is particularly appropriate for the study of maize, a crop with significant cultural and economic impact in both Mexico and the U.S. Participating Mexican students will learn computational management of large datasets that can be introduced to their respective laboratories and peers. American exchange students will benefit from experience in highland and lowland environments as well as opportunities to work with landraces and teosinte in the field.  The hope is that Mexican undergraduate students involved may be recruited to graduate programs in the U.S., ideally to work in the lab of one of the team members, and that American undergraduate students will be exposed to international opportunities for research, graduate education, and collaboration.
 
 \subsection*{Phenotyping workshop} %SFG, JRI
 
@@ -295,7 +296,7 @@ The USDA-ARS group in Columbia, Missouri has developed a streamlined phenotypic 
 
 \subsection*{Software} %JRI and GC
 
-A good understanding of population and quantitative genetics is key to a student's understanding of genetics and evolution, but these subjects are often conceptually quite difficult. An understanding of genetic variation and its phenotypic effects is also an increasingly important part of being an informed citizen, due to the rise of personal genomics and genomic medicine \citep[e.g.][]{redfield2012}. The large amount of population genetic and association data being generated offers a superb chance to motivate these subjects using real data. 
+A good understanding of population and quantitative genetics is key to a student's understanding of genetics and evolution, but these subjects are often conceptually quite difficult.  A basic understanding of genetic variation is important for all citizens, due to the rise of personal genomics and genomic medicine \citep[e.g.][]{redfield2012}. The large amount of population genetic and association data being generated offers a superb chance to motivate these subjects using real data. 
 We will develop undergraduate teaching modules in population and quantitative genetics using data from this project. These modules will be tested and integrated into large undergraduate teaching courses (introductory evolutionary biology and genetics) at UC Davis and graduate courses at UC Davis and Iowa State (ecological genomics). We have already begun to develop and distribute some of these resources, e.g. genome-scale demonstrations of Hardy Weinberg Equilibrium (HWE) using  human HapMap data. Such demonstrations underscore the usefulness of basic population genetics in describing real world patterns, and begin to expose students to the wealth of genomics data being collected. 
 Other examples will include: using association data from our admixed populations to demonstrate quantitative genetics models; and explaining concepts of genetic and genealogical ancestry using genomic identity by descent.  These modules will be prepared in the open source statistical program R, to ensure that they are easily used, modified, and distributed, and to expose students to programming in biology. The modules will be designed so that they can be tailored for use at a variety of levels from teaching basic concepts to large undergraduate classes to providing the raw data for programming exercises for upper division courses.
 
