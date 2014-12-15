@@ -3,7 +3,7 @@ PGRP
 
 ### Status
 
-Declined by NSF 12/2014. [Panel reviews](https://github.com/RILAB/PGRP/reviews.md) were generally positive, with overall summary "highly meritorious."
+Declined by NSF 12/2014. [Panel reviews](https://github.com/RILAB/PGRP/reviews2014.md) were generally positive, with overall summary "highly meritorious."
 
 Suggested changes for next time: clarify phenotyping/RNAseq, target audience of outreach, remove teosinte, note drawbacks.
 
